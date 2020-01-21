@@ -528,7 +528,7 @@ select::after {
   text-align: center;
   padding-bottom: 40px;
   margin-bottom: 0;
-=======
+  margin-top: 0;
   background: url("../../assets/img/pagebanner.png");
   background-repeat: no-repeat;
   background-size: cover;
