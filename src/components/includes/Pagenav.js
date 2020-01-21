@@ -18,6 +18,12 @@ const Pagenav = props => {
     <div>
       <Navbar color="light" light expand="md">
         <NavbarBrand href="/">
+
+          {/* <img
+            src={require("../../assets/img/fusioncampaignlogo.png")}
+            alt=""
+          /> */}
+          <h1>Travel Hub</h1>
           <img
             src={require("../../assets/img/fusioncampaignlogo.png")}
             alt=""
@@ -28,35 +34,31 @@ const Pagenav = props => {
           <Nav navbar className="homeNavLinks">
             <NavItem>
               <NavLink href="monhkey" className="links">
-                Product
+                Flight
               </NavLink>
             </NavItem>
             <NavItem>
               <NavLink href="monhkey" className="links">
-                Pricing
+                Hotels
               </NavLink>
             </NavItem>
             <NavItem>
               <NavLink href="monkhey" className="links">
-                Demo
+                Car Rentals
               </NavLink>
             </NavItem>
-            <NavItem>
-              <NavLink href="monkhey" className="links">
-                Support
-              </NavLink>
-            </NavItem>
+           
           </Nav>
 
           <Nav navbar className="homeLoginSignup">
             <NavItem>
               <NavLink href="monhkey" className="loginsignup login">
-                LOG IN
+                Sign Up
               </NavLink>
             </NavItem>
             <NavItem>
               <NavLink href="monhkey" className="loginsignup signup">
-                SIGN UP
+                Log In
               </NavLink>
             </NavItem>
           </Nav>
