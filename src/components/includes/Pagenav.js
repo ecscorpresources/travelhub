@@ -18,11 +18,16 @@ const Pagenav = props => {
     <div>
       <Navbar color="light" light expand="md">
         <NavbarBrand href="/">
+
           {/* <img
             src={require("../../assets/img/fusioncampaignlogo.png")}
             alt=""
           /> */}
           <h1>Travel Hub</h1>
+          <img
+            src={require("../../assets/img/fusioncampaignlogo.png")}
+            alt=""
+          />
         </NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
@@ -42,6 +47,7 @@ const Pagenav = props => {
                 Car Rentals
               </NavLink>
             </NavItem>
+           
           </Nav>
 
           <Nav navbar className="homeLoginSignup">
