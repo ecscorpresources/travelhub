@@ -51,6 +51,8 @@
   src: url(../../assets/fonts/Captura-BlackDemo.otf) format("opentype");
   font-weight: normal;
   font-style: normal;
+}
+
 html,
 body {
   font-family: font1 !important;
@@ -65,7 +67,6 @@ body {
     background-position: calc(100% - 5px) center !important;
   }
 }
-
 
 html,
 body {
@@ -85,7 +86,8 @@ body {
 
 .homeNavLinks {
   margin-left: 70px;
-/* begining css reset */
+  /* begining css reset */
+}
 html,
 body,
 div,
@@ -267,7 +269,6 @@ body {
   margin-left: auto;
 }
 
-
 a.links {
   color: #fff !important;
   padding-right: 45px !important;
@@ -277,7 +278,6 @@ a.links {
 .bg-light {
   background-color: transparent !important;
 }
-
 
 a.links {
   color: #fff !important;
@@ -528,7 +528,6 @@ select::after {
   text-align: center;
   padding-bottom: 40px;
   margin-bottom: 0;
-=======
   background: url("../../assets/img/pagebanner.png");
   background-repeat: no-repeat;
   background-size: cover;
