@@ -1,5 +1,8 @@
 import React from "react";
 import Destination from "../../includes/Destination";
+import { Link } from "react-router-dom";
+import { FaQuoteLeft, FaQuoteRight } from "react-icons/fa";
+import Resort from "./Resort";
 
 const Homepage = () => {
   return (
@@ -7,8 +10,40 @@ const Homepage = () => {
       <div id="homeFirstSection" className="container-fluid">
         <div className="row">
           <div className="col-md-12">
-            <h1>Discover yourself</h1>
-            <h3>through our travel offers</h3>
+            <h1>Own a slice of Luxury</h1>
+          </div>
+        </div>
+
+        <div className="row time_share">
+          <div className="col-md-3">
+            <Link to="monkhey">Buy TimeShare</Link>
+          </div>
+          <div className="col-md-3">
+            <Link to="monkhey">Sell TimeShare</Link>
+          </div>
+        </div>
+      </div>
+
+      <div id="homepalmSection" className="container-fluid">
+        <div className="row">
+          <div className="col-md-12">
+            <p>
+              <sup>
+                <FaQuoteLeft />
+              </sup>
+              Take a time out, refresh and enjoy a vacation in paradise
+              <sup>
+                <FaQuoteRight />
+              </sup>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div id="homeresortSection" className="container-fluid">
+        <Resort />
+        <div className="row flight_booking">
+          <div className="col-md-12">
+            <h6>Flight Booking</h6>
           </div>
         </div>
         <div className="row parent">
@@ -73,6 +108,7 @@ const Homepage = () => {
           </div>
         </div>
       </div>
+
       <div id="homeSecondSection" className="container-fluid">
         <div className="row row-1">
           <div className="col-md-12">

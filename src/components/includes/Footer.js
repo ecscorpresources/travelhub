@@ -91,7 +91,7 @@ const Footer = () => {
             </div>
             <div className="row copyright">
               <div className="col-md-12">
-                <p>Copyright 2020 TravelHub. All Rights Reserved.</p>
+                <p>Copyright 2020 CarLay. All Rights Reserved.</p>
               </div>
             </div>
           </div>

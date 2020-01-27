@@ -16,30 +16,26 @@ const Pagenav = props => {
 
   return (
     <div>
-      <Navbar color="light" light expand="md">
+      <Navbar color="transparent" transparent expand="md">
         <NavbarBrand href="/">
-          {/* <img
-            src={require("../../assets/img/fusioncampaignlogo.png")}
-            alt=""
-          /> */}
-          <h1>Travel Hub</h1>
+          <img src={require("../../assets/img/Carlaylogo.png")} alt="" />
         </NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav navbar className="homeNavLinks">
             <NavItem>
               <NavLink href="monhkey" className="links">
-                Flight
+                Resort
               </NavLink>
             </NavItem>
             <NavItem>
               <NavLink href="monhkey" className="links">
-                Hotels
+                Other Services
               </NavLink>
             </NavItem>
             <NavItem>
               <NavLink href="monkhey" className="links">
-                Car Rentals
+                Lets Talk
               </NavLink>
             </NavItem>
           </Nav>
