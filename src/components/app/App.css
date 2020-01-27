@@ -52,6 +52,11 @@
   font-weight: normal;
   font-style: normal;
 }
+
+html,
+body {
+  font-family: font1 !important;
+}
 /* line to remove default firefox select styles */
 @supports (-moz-appearance: none) {
   select {
@@ -87,6 +92,183 @@ body {
 
 .homeNavLinks {
   margin-left: 70px;
+  /* begining css reset */
+}
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  line-height: 1;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+nav ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+/* change colors to suit your needs */
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+
+/* change colors to suit your needs */
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+abbr[title],
+dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* change border color to suit your needs */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+input,
+select {
+  vertical-align: middle;
+}
+
+/*  end of css reset */
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.homeNavLinks {
+  margin-left: 155px;
 }
 
 .homeLoginSignup {
@@ -101,6 +283,10 @@ a.links {
 
 .bg-light {
   background-color: transparent !important;
+}
+
+a.links {
+  color: #fff !important;
 }
 
 .navbar {
@@ -120,6 +306,7 @@ a.links {
   margin-bottom: 0;
   margin-top: 0;
   color: #fff;
+  padding: 25px 50px 0px 50px !important;
 }
 
 .navbar-dark .navbar-nav .links {
@@ -132,6 +319,7 @@ a.loginsignup {
   color: #000 !important;
   background: #275273 !important;
   color: #fff !important;
+  background: #ffbe00 !important;
   padding: 8px 25px !important;
   border-radius: 4px !important;
   margin-right: 10px !important;
@@ -467,7 +655,221 @@ select::after {
   text-align: center;
   padding-bottom: 40px;
   margin-bottom: 0;
+<<<<<<< HEAD
+=======
   margin-top: 0;
+>>>>>>> d5a088333db106a1b0aef9b168d1884540195ae5
+  background: url("../../assets/img/pagebanner.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: -77px;
+  height: 669px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+#homeFirstSection > .row {
+  margin-left: 120px;
+}
+
+#homeFirstSection h1 {
+  font-size: 45px;
+  font-family: codecBold;
+}
+
+#homeFirstSection p {
+  font-size: 22px;
+}
+
+#homeSecondSection {
+  background: url("../../assets//img/background1.png") no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 1291px;
+}
+
+#homeSecondSection .col-md-6.engage {
+  margin: auto;
+  padding: 45px 0px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+#homeSecondSection h1 {
+  font-family: nexaBold;
+}
+
+#homeSecondSection h4 {
+  font-family: NexaLight;
+}
+
+#homeSecondSection a {
+  text-decoration: none;
+}
+
+#homeSecondSection .col-md-3 {
+  text-align: center;
+}
+
+#homeSecondSection .col-md-3 h5 {
+  font-family: nexaBold;
+  font-size: 20px;
+  color: #ec268f;
+}
+
+#homeSecondSection .col-md-3 p {
+  font-size: 15px;
+  color: #000;
+}
+
+#homeSecondSection div.row-2 {
+  margin-left: 0px;
+  margin-right: 0px;
+  padding: 0px 80px;
+}
+
+#homeSecondSection div.row-3 {
+  margin-left: 0px;
+  margin-right: 0px;
+  padding: 45px 80px;
+}
+
+#homeSecondSection .arrow {
+  position: relative;
+  left: 10px;
+}
+
+#homeSecondSection .row.slides {
+  padding: 50px 0px;
+  margin-left: -26px;
+  margin-right: 0px;
+}
+
+#homeSecondSection .row.slides .col-md-4:first-child {
+  margin-left: 35px;
+  padding-top: 23px;
+}
+
+#homeSecondSection .row.slides .col-md-4:last-child {
+  border-left: 2px solid #ddd;
+  margin-left: 215px;
+  padding-top: 35px;
+  padding-left: 39px;
+  padding-bottom: 59px;
+}
+
+#homeSecondSection .row.slides .col-md-4:last-child h1 {
+  font-size: 28px;
+}
+
+#homeSecondSection .row.slides .col-md-4:last-child p {
+  font-size: 18px;
+  padding-top: 12px;
+}
+
+#homeThirdSection {
+  background-image: url("../../assets//img//stepsimg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+#homeThirdSection .col-md-4 {
+  position: relative;
+  top: -130px;
+  left: 55px;
+  font-family: NexaLight;
+}
+
+#homeThirdSection .col-md-4 hr {
+  border-top: 4px solid #ddd;
+  width: 64%;
+}
+
+#homeThirdSection .col-md-4 h1 {
+  font-size: 34px;
+}
+#homeThirdSection .col-md-4 h4 {
+  font-size: 30px;
+}
+
+#homeThirdSection .col-md-4 h5 {
+  font-size: 22px;
+  padding-top: 10px;
+}
+
+#homeThirdSection div.row-1 {
+  padding: 237px 40px;
+}
+
+#homeThirdSection a {
+  position: absolute;
+  right: 46px;
+  bottom: 59px;
+  background: #ffbe00;
+  padding: 7px 30px;
+  border-radius: 4px;
+  font-size: 17px;
+  font-family: NexaBold;
+  text-decoration: none;
+  color: #000;
+}
+
+#homeFooterSection .col-md-6 .col-md-2 {
+  border-left: 1px solid #000;
+}
+
+#homeFooterSection {
+  background-color: #29b1e6;
+  padding: 40px 70px 10px 70px;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+#homeFooterSection a.faq {
+  border-left: 1px solid #000;
+  margin-left: -38px;
+  padding-left: 14px;
+  color: #000;
+  text-decoration: none;
+}
+
+#homeFooterSection a.policy {
+  margin-left: -121px;
+  color: #000;
+  text-decoration: none;
+}
+
+#homeFooterSection a.terms {
+  margin-left: -166px;
+  color: #000;
+  text-decoration: none;
+}
+
+#homeFooterSection .col-md-6:last-child .row {
+  justify-content: flex-end;
+}
+
+#homeFooterSection div.phone-number,
+div.email {
+  text-align: right;
+  color: #000;
+}
+
+#homeFooterSection div.phone-number p {
+  margin-right: -75px;
+  color: #000;
+}
+
+#homeFooterSection div.email img {
+  margin-right: 7px;
+}
+
+#homeFooterSection p.copyright {
+  color: #000;
 }
 
 #homeresortSection form div.form_row {

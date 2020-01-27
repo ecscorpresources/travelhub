@@ -38,6 +38,7 @@ const Pagenav = props => {
                 Lets Talk
               </NavLink>
             </NavItem>
+           
           </Nav>
 
           <Nav navbar className="homeLoginSignup">

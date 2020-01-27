@@ -7,6 +7,7 @@ import Homepage from "../pages/Homepage/Homepage";
 import Footer from "../includes/Footer";
 import { ThemeProvider } from "@chakra-ui/core";
 
+
 function App() {
   return (
     <>
