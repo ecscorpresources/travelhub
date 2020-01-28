@@ -216,7 +216,7 @@ a.loginsignup {
   width: 100%;
 }
 
-#homeresortSection button {
+#homeresortSection button.tab {
   background: transparent;
   border: none;
   box-shadow: none;
@@ -225,8 +225,8 @@ a.loginsignup {
   font-family: NexaLight;
 }
 
-#homeresortSection button:active,
-#homeresortSection button:focus {
+#homeresortSection button.tab:active,
+#homeresortSection button.tab:focus {
   color: #275273;
   font-size: 18px;
   font-family: NexaBold;
@@ -579,8 +579,9 @@ select::after {
 }
 
 #hotelsFirstSection button {
-  padding: 10px 68px 10px 10px;
-  background: #0A5C7D;
+  padding: 10px 38px 10px 38px;
+  background: #0a5c7d;
+  color: #fff;
   border: none;
 }
 
@@ -588,14 +589,16 @@ select::after {
   padding: 10px 206px 10px 10px;
   margin-right: 15px;
   border: 1px solid #ddd;
-  background: #fff;
+  background: #fff !important;
+  color: gray;
 }
 
 #hotelsFirstSection {
-  margin-right: 200px;
-  margin-left: 200px;
+  margin-right: 160px;
+  margin-left: 160px;
   position: relative;
 }
+
 /* 
 #hotelsFirstSection div.banner_div {
   margin-right: 200px;
@@ -642,11 +645,285 @@ select::after {
   color: #275273;
 }
 
-#hotelsFirstSection .col-md-4 img {
+#hotelsSecondSection > .row {
+  justify-content: center;
+  padding-top: 20px;
+}
+
+#hotelsSecondSection .col-md-3 {
+  position: relative;
+}
+
+#hotelsSecondSection .col-md-3 div {
+  position: absolute;
+  right: 15px;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.4);
+  padding: 10px 10px;
+  color: #275273;
+  font-size: 18px;
+}
+
+#hotelsSecondSection .col-md-3 div p {
+  margin-bottom: 0;
+}
+
+#hotelsSecondSection .col-md-3 img {
   width: 100%;
 }
 
-#hotelsFirstSection .row {
+#hotelSecondSection > .row {
+  justify-content: center;
+  padding-top: 20px;
+}
+
+/* #hotelsFirstSection .row {
   padding-top: 20px;
   padding-bottom: 20px;
+  align-items: flex-end;
+} */
+
+#rentalsFirstSection > .row {
+  justify-content: center;
+}
+
+#rentalsFirstSection > .row .col-md-4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 70px;
+}
+
+#rentalsFirstSection > .row .col-md-4:first-child img {
+  width: 100%;
+}
+
+#rentalsFirstSection > .row .col-md-4 h1 {
+  font-size: 80px;
+}
+
+#rentalsFirstSection > .row .col-md-4 p {
+  font-size: 30px;
+}
+
+#rentalSecondSection > .row {
+  justify-content: space-evenly;
+}
+
+#rentalSecondSection .col-md-3 img {
+  width: 100%;
+}
+
+#rentalThirdSection > .row {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+#rentalThirdSection > .row .col-md-12 {
+  display: flex;
+  justify-content: center;
+}
+
+#rentalThirdSection div.date {
+  display: flex;
+}
+
+#rentalThirdSection div.date div {
+  position: relative;
+}
+
+#rentalThirdSection div.date div img {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+}
+
+#rentalThirdSection form div:first-child input,
+#rentalThirdSection form button {
+  padding: 10px 90px 10px 8px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border: 1px solid #ddd;
+  color: grey;
+}
+
+#rentalThirdSection form button {
+  padding: 10px 66px 10px 67px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border: 1px solid #ddd;
+  color: #fff;
+  background-color: #0a5c7d;
+  color: grey;
+}
+
+#rentalThirdSection form select {
+  padding: 10px 150px 10px 8px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border: 1px solid #ddd;
+  color: grey;
+}
+
+#rentalFourthSection > .row {
+  justify-content: center;
+}
+
+#cruiseFirstSection {
+  background: url("../../assets/img/35.png") no-repeat;
+  /* background-size: cover; */
+  background-position: center;
+  height: 772px;
+  margin-bottom: 70px;
+}
+
+#cruiseFirstSection > .row:first-child {
+  padding-top: 50px;
+}
+
+#cruiseFirstSection > .row .col-md-12.inputs {
+  display: flex;
+  justify-content: center;
+}
+
+#cruiseFirstSection select.sail_to,
+#cruiseFirstSection select.sail_from {
+  padding: 7px 100px 7px 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border: 1px solid #ddd;
+  background-color: #fff !important;
+  color: grey;
+}
+
+#cruiseFirstSection input {
+  padding: 7px 15px 7px 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border: 1px solid #ddd;
+  color: grey;
+}
+
+#cruiseFirstSection select.departure {
+  padding: 7px 65px 7px 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border: 1px solid #ddd;
+  background-color: #fff !important;
+  color: grey;
+}
+
+#cruiseFirstSection button {
+  padding: 10px 16px 10px 16px;
+  color: #fff;
+  background-color: #0a5c7d;
+  border: none;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#cruiseFirstSection > .row:nth-child(2) {
+  padding-top: 378px;
+  justify-content: center;
+}
+
+#cruiseFirstSection ul li a {
+  color: #000;
+  background-color: #fff;
+  padding: 10px 10px;
+  text-decoration: none;
+}
+
+#cruiseFirstSection > .row .col-md-4 {
+  border: 2px solid #fff;
+}
+
+#cruiseFirstSection > .row .col-md-4:first-child h1 {
+  color: #fff;
+}
+
+#cruiseFirstSection > .row .col-md-4:first-child p {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 100;
+}
+
+#cruiseFirstSection > .row .col-md-4:first-child span {
+  color: #fff;
+}
+
+#cruiseFirstSection ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  color: #fff;
+}
+
+#cruiseFirstSection > .row .col-md-4:last-child h1 {
+  color: #fff;
+  text-align: center;
+}
+
+#cruiseFirstSection > .row .col-md-4:last-child p {
+  color: #fff;
+  text-align-last: center;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#cruiseFirstSection > .row .col-md-4:last-child ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  align-items: flex-end;
+  color: #fff;
+  margin-top: 30px;
+}
+
+#cruiseFirstSection > .row .col-md-4:first-child {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#cruiseFirstSection > .row .col-md-4:last-child {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#cruiseFirstSection .row.finance {
+  margin-left: 193px;
+  margin-right: 194px;
+  padding-top: 18px;
+}
+
+#cruiseFirstSection .col-md-12.finance {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #667280;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+#cruiseFirstSection .col-md-12.finance h1 {
+  font-size: 23px;
+  color: #fff;
+  margin-bottom: 0;
+}
+
+#cruiseFirstSection .col-md-12.finance a {
+  background-color: #5ca47a;
+  color: #fff;
+  text-decoration: none;
+  padding: 7px 22px;
+  font-size: 14px;
 }

@@ -3,6 +3,9 @@ import { Tabs, TabList, TabPanels, Tab, TabPanel } from "@chakra-ui/core";
 import SingleResort from "./SingleResort";
 import City from "./City";
 import Guide from "./Guide";
+import Hotels from "./Hotels";
+import Rentals from "./Rentals";
+import Cruise from "./Cruise";
 
 const text1 = (
   <>
@@ -33,11 +36,11 @@ const Resort = () => {
         <div className="row tabs_row">
           <div className="col-md-8">
             <TabList>
-              <Tab>RESORT</Tab>
-              <Tab>TOURS & GUIDE</Tab>
-              <Tab>HOTEL</Tab>
-              <Tab>CAR RENTALS</Tab>
-              <Tab>CRUISE</Tab>
+              <Tab className="tab">RESORT</Tab>
+              <Tab className="tab">TOURS & GUIDE</Tab>
+              <Tab className="tab">HOTEL</Tab>
+              <Tab className="tab">CAR RENTALS</Tab>
+              <Tab className="tab">CRUISE</Tab>
             </TabList>
           </div>
         </div>
@@ -157,70 +160,13 @@ const Resort = () => {
                 </div>
               </TabPanel>
               <TabPanel>
-                <div id="hotelsFirstSection">
-                  <img
-                    src={require("../../../assets/img/23.png")}
-                    alt=""
-                    className="paris_image"
-                  />
-                  <form>
-                    <div>
-                      <input
-                        type="text"
-                        placeholder="Destination"
-                        className="destination"
-                      />
-                    </div>
-
-                    <div>
-                      <input
-                        type="text"
-                        placeholder="Check In"
-                        className="checkin"
-                      />
-                      <input
-                        type="text"
-                        placeholder="Check Out"
-                        className="checkout"
-                      />
-                    </div>
-
-                    <div>
-                      <select name="" id="">
-                        <option value="option1">option1</option>
-                        <option value="option2">option2</option>
-                      </select>
-                      <button type="submit">BOOK NOW</button>
-                    </div>
-                  </form>
-                  {/* <div className="location">
-                    <p>Le Bristol Paris</p>
-                  </div> */}
-
-                  <div className="row">
-                    <div className="col-md-4">
-                      <img src={require("../../../assets/img/24.png")} alt="" />
-                    </div>
-
-                    <div className="col-md-4">
-                      <img src={require("../../../assets/img/25.png")} alt="" />
-                    </div>
-
-                    <div className="col-md-4">
-                      <img src={require("../../../assets/img/26.png")} alt="" />
-                    </div>
-                  </div>
-                </div>
+                <Hotels />
               </TabPanel>
               <TabPanel>
-                <div id="rentalsFirstSection" className="container-fluid">
-                  <div className="row">
-                    <div className="col-md-4">
-                      <img src={require("../../../assets/img/27.png")} alt="" />
-                    </div>
-                    <div className="col-md-4"></div>
-                  </div>
-                </div>
+                <Rentals />
+              </TabPanel>
+              <TabPanel>
+                <Cruise />
               </TabPanel>
             </TabPanels>
           </div>
