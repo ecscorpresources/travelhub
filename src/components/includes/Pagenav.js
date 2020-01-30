@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import { withRouter } from "react-router-dom";
+import { Link } from "react-router-dom";
 import {
   Collapse,
   Navbar,
@@ -6,7 +8,11 @@ import {
   NavbarBrand,
   Nav,
   NavItem,
-  NavLink
+  NavLink,
+  UncontrolledDropdown,
+  DropdownToggle,
+  DropdownMenu,
+  DropdownItem
 } from "reactstrap";
 
 const Pagenav = props => {
@@ -16,7 +22,7 @@ const Pagenav = props => {
 
   return (
     <div>
-      <Navbar color="transparent" transparent expand="md">
+      <Navbar color="dark" transparent="true" expand="md">
         <NavbarBrand href="/">
           <img src={require("../../assets/img/Carlaylogo.png")} alt="" />
         </NavbarBrand>
@@ -28,11 +34,22 @@ const Pagenav = props => {
                 Resort
               </NavLink>
             </NavItem>
-            <NavItem>
-              <NavLink href="monhkey" className="links">
+            <UncontrolledDropdown nav inNavbar>
+              <DropdownToggle nav caret className="links">
                 Other Services
-              </NavLink>
-            </NavItem>
+              </DropdownToggle>
+              <DropdownMenu right>
+                <DropdownItem>
+                  <Link to="/resorts_hotels">Resort & Hotels</Link>
+                </DropdownItem>
+                <DropdownItem>
+                  <Link to="/tours_guides">Tours & Guide</Link>
+                </DropdownItem>
+                <DropdownItem>Car Rentals</DropdownItem>
+                <DropdownItem>Cruise</DropdownItem>
+              </DropdownMenu>
+            </UncontrolledDropdown>
+
             <NavItem>
               <NavLink href="monkhey" className="links">
                 Lets Talk
@@ -58,4 +75,4 @@ const Pagenav = props => {
   );
 };
 
-export default Pagenav;
+export default withRouter(Pagenav);

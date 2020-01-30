@@ -143,7 +143,7 @@ a.loginsignup {
   background: url("../../assets/img/1th.png") no-repeat;
   background-position: center;
   background-size: cover;
-  height: 856px;
+  min-height: 856px;
   margin-top: -120px;
   display: flex;
   flex-direction: column;
