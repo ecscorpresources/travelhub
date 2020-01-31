@@ -13,7 +13,7 @@
 }
 
 #tourguideSecondSection {
-  padding-bottom: 50px;
+  /* padding-bottom: 50px; */
 }
 
 #tourguideSecondSection > .row.first {
@@ -283,4 +283,72 @@
   padding: 7px;
 }
 
+#tourguideThirdSection .col-md-2.column_1 .col-md-10 {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+#tourguideThirdSection .col-md-2.column_1 .col-md-10 hr {
+  border-top: 1px solid gray;
+  width: 130%;
+  margin-left: -27px;
+}
+
+#tourguideThirdSection .col-md-2.column_1 .col-md-10 h3 {
+  font-size: 21px;
+  padding-top: 10px;
+  color: gray;
+}
+
+#tourguideThirdSection .col-md-10.accessible {
+  background-color: #f5f5f5;
+  padding: 15px 22px;
+}
+
+#tourguideThirdSection .col-md-10.accessible ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 20px;
+}
+
+#tourguideThirdSection .col-md-10.accessible ul li:last-child {
+  text-align: left;
+  margin-left: 10px;
+}
+
+#tourguideThirdSection .col-md-4 {
+  text-align: center;
+}
+
+#tourguideThirdSection .col-md-4 a {
+  color: #fff;
+  background: #0a5c7d;
+  display: inline-block;
+  padding: 9px 44px;
+  margin-bottom: 20px;
+  text-decoration: none;
+  letter-spacing: 3px;
+}
+
+#tourguidemapSection {
+  background: #f5f5f5;
+  padding-top: 20px;
+  padding-bottom: 60px;
+}
+
+#tourguidemapSection > .row {
+  justify-content: center;
+}
+
+#tourguidemapSection > .row .col-md-10 {
+  text-align: center;
+}
+
+#tourguidemapSection > .row .col-md-10 hr {
+  margin: 0;
+  border-top: 2px solid #ddd;
+}
 /* END OF HOME RESORT SECTION */

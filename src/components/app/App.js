@@ -8,7 +8,7 @@ import Footer from "../includes/Footer";
 import { ThemeProvider } from "@chakra-ui/core";
 import ResortHotels from "../pages/Homepage/ResortHotels";
 import ToursGuide from "../pages/Homepage/ToursGuide";
-import CarRentals from "../pages/Homepage/CarRentals/CarRentals";
+import CarRental from "../pages/Homepage/CarRentals/CarRental";
 import MainCruise from "../pages/Cruise/MainCruise";
 
 function App() {
@@ -21,7 +21,7 @@ function App() {
             <Route exact path="/" component={Homepage} />
             <Route path="/resorts_hotels" component={ResortHotels} />
             <Route path="/tours_guides" component={ToursGuide} />
-            <Route path="/car_rental" component={CarRentals} />
+            <Route path="/car_rental" component={CarRental} />
             <Route path="/cruise" component={MainCruise} />
           </Switch>
           <Footer />

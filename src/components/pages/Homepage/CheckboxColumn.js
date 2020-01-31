@@ -14,7 +14,9 @@ const CheckboxColumn = () => {
               <IoIosArrowDown />
               Accomdation Type
             </span>
-            <Checkbox value="Timeshare">Timeshare</Checkbox>
+            <Checkbox value="Timeshare" className="checkbox">
+              Timeshare
+            </Checkbox>
             <Checkbox value="Resort">Resort</Checkbox>
             <Checkbox value="Hotels">Hotels</Checkbox>
             <Checkbox value="Lodge">Lodge</Checkbox>
