@@ -2,6 +2,8 @@ import React from "react";
 import "./ToursGuide.css";
 import SingleTour from "./SingleTour";
 import CheckboxColumn from "./CheckboxColumn";
+import Pagination from "./Pagination";
+import Guide from "./Guide";
 
 const tour_1 = (
   <>
@@ -60,18 +62,26 @@ const ToursGuide = () => {
           <div className="col-md-10">
             <form>
               <div className="row form_row_1">
-                <div className="col-md-5">
-                  <input type="text" placeholder="Destination" />
+                <div className="col-md-4">
+                  <input type="text" placeholder="Tour Location" />
                 </div>
-                <div className="col-md-3">
-                  <input type="date" placeholder="Select a Date" />
+                <div className="col-md-2">
+                  <input type="date" placeholder="From" />
                 </div>
-                <div className="col-md-3">
-                  <input type="date" placeholder="Select a Date" />
+                <div className="col-md-2">
+                  <input type="date" placeholder="To" />
+                </div>
+                <div className="col-md-2">
+                  <button type="submit">FIND TOUR</button>
                 </div>
               </div>
             </form>
           </div>
+        </div>
+      </div>
+      <div id="tourguidemapSection">
+        <div className="row">
+          <div className="col-md-10"></div>
         </div>
       </div>
       <div id="tourguideThirdSection" className="container-fluid">
@@ -149,7 +159,54 @@ const ToursGuide = () => {
               price="NGN 76,020"
               taxes="(for one person)"
             />
+            <Pagination />
           </div>
+        </div>
+      </div>
+
+      <div id="tourguideFourthSection" className="container-fluid">
+        <div className="row parent">
+          <div className="col-md-10">
+            <div className="row">
+              <div className="col-md-4">
+                <h1>Find a Guide</h1>
+              </div>
+              <div className="col-md-8 form">
+                <form>
+                  <input type="text" placeholder="Enter Location" />
+                  <button type="submit">LOCATE GUIDE</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="row guides">
+          <Guide
+            image={require("../../../assets/img/19.png")}
+            name="Carlos"
+            language="Portugese, English, Spanish"
+            profile="Is a qualified tour guide with a vast knowledge of historical sites, wonderful restaurant recommendations and ..."
+          />
+          <Guide
+            image={require("../../../assets/img/20.png")}
+            name="Isaac"
+            language="English, Ashante, Twi"
+            profile="Isaac is a lincenced Tour Guide Director located in Accra Ghana and a native born Ghanaian from the Ashanti"
+          />
+
+          <Guide
+            image={require("../../../assets/img/21.png")}
+            name="Yi Fen"
+            language="English, Taiwanese, Mandarin"
+            profile="Please come and travel with me! It makes a big difference who you travel with. We can talk about Taiwan and..."
+          />
+
+          <Guide
+            image={require("../../../assets/img/22.png")}
+            name="Rene"
+            language="English, French, Italian, Deutsch"
+            profile="Now as a guide, I get to enjoy meeting people without being stressed with the selling part! changed my focus from..."
+          />
         </div>
       </div>
     </>

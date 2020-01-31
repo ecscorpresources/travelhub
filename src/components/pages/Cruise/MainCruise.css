@@ -1,0 +1,144 @@
+#maincruiseFirstSection {
+  background-color: #f5f5f5;
+}
+
+#maincruiseFirstSection > .row:nth-child(1) {
+  padding: 50px;
+}
+
+#maincruiseFirstSection > .row:nth-child(2) {
+  justify-content: center;
+  padding-bottom: 50px;
+}
+
+#maincruiseFirstSection h1 {
+  font-weight: bold;
+  color: gray;
+}
+
+#maincruiseFirstSection .col-md-8 img.ship {
+  width: 100%;
+}
+
+#maincruiseFirstSection .col-md-3 {
+  background-color: #ddd;
+}
+
+#maincruiseFirstSection .col-md-3 ul {
+  list-style: none;
+  margin: 0;
+}
+
+#maincruiseFirstSection .col-md-3 span.cruise {
+  display: inline-block;
+  padding-bottom: 30px;
+  font-size: 26px;
+  padding-top: 8px;
+}
+
+#maincruiseFirstSection .col-md-3 ul li {
+  padding-bottom: 10px;
+}
+
+#maincruiseFirstSection .col-md-3 ul li span:nth-child(2) {
+  color: grey;
+}
+
+#maincruiseFirstSection .col-md-3 ul li span:nth-child(1) {
+  color: grey;
+  font-weight: bold;
+}
+
+#maincruiseFirstSection .col-md-3 a {
+  display: inline-block;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+#maincruiseFirstSection .col-md-3 form {
+  display: flex;
+  flex-direction: column;
+}
+
+#maincruiseFirstSection .col-md-3 form select,
+#maincruiseFirstSection .col-md-3 form button {
+  margin-bottom: 10px;
+}
+
+#maincruiseFirstSection .col-md-3 form select {
+  border: 1px solid #ddd;
+  background-color: #fff !important;
+  padding: 8px 5px;
+  color: grey;
+}
+
+#maincruiseFirstSection .col-md-3 button {
+  border: none;
+  width: 76%;
+  padding: 11px 0;
+  background: #0a5c7d;
+  color: #fff;
+}
+
+#maincruiseFirstSection .col-md-8 ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+}
+
+#maincruiseFirstSection .col-md-8 ul li:nth-child(2) {
+  align-self: flex-end;
+}
+
+#maincruiseFirstSection .col-md-8 {
+  position: relative;
+}
+
+#maincruiseFirstSection .col-md-8 div.white_box {
+  width: 41%;
+  position: absolute;
+  bottom: 16px;
+  left: 30px;
+  border: 2px solid #fff;
+  padding: 12px;
+  color: #fff;
+}
+
+#maincruiseFirstSection .col-md-8 div.white_box h2 {
+  font-weight: bold;
+  margin: 0;
+  font-size: 27px;
+}
+
+#maincruiseFirstSection .col-md-8 div.white_box p {
+  font-size: 23px;
+  margin: 0;
+}
+
+#maincruiseFirstSection .col-md-8 ul li a {
+  color: #000;
+  text-decoration: none;
+  background: #fff;
+  padding: 8px 10px;
+}
+
+#maincruiseFirstSection .col-md-8 ul li:first-child {
+  position: relative;
+  top: 12px;
+}
+
+#maincruiseSecondSection {
+  background: #f5f5f5;
+}
+
+#maincruiseSecondSection .row.parent {
+  justify-content: center;
+}
+
+#maincruiseSecondSection .col-md-2 {
+  background-color: #ddd;
+}
+
+#maincruiseSecondSection .col-md-9 {
+}

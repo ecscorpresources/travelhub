@@ -78,7 +78,7 @@
 #resorthotelsThirdSection .col-md-2.column_1 {
   background: #ddd;
   padding-top: 20px;
-  padding-bottom: 200px;
+  /* padding-bottom: 200px; */
 }
 
 #resorthotelsThirdSection .col-md-9 {
@@ -197,4 +197,16 @@
 
 #resorthotelsThirdSection div.checkboxes {
   padding-top: 30px;
+}
+
+#resorthotelsThirdSection hr {
+  width: 224px;
+  margin-left: -34px;
+  margin-top: -18px;
+}
+
+#resorthotelsThirdSection span {
+  padding-bottom: 10px;
+  display: block;
+  font-weight: bold;
 }

@@ -3,6 +3,7 @@ import "./ResortHotels.css";
 import { Checkbox } from "@chakra-ui/core";
 import HotelReservation from "./HotelReservation";
 import CheckboxColumn from "./CheckboxColumn";
+import Pagination from "./Pagination";
 
 const booking_2 = (
   <>
@@ -99,7 +100,7 @@ const ResortHotels = props => {
             </div>
             <CheckboxColumn />
           </div>
-          <div className="col-md-8">
+          <div className="col-md-8 com">
             <HotelReservation
               img={require("../../../assets/img/38.png")}
               rating={require("../../../assets/img/39.png")}
@@ -147,6 +148,7 @@ const ResortHotels = props => {
               price="NGN 26,408"
               taxes="+ NGN 19,648 taxes and charges"
             />
+            <Pagination />
           </div>
         </div>
       </div>

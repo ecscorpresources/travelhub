@@ -99,8 +99,8 @@ a.links {
   font-size: 17px;
 }
 
-.bg-light {
-  background-color: transparent !important;
+nav {
+  background-color: rgba(0, 0, 0, 0.4);
 }
 
 .navbar {

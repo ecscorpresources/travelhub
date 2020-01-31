@@ -1,5 +1,7 @@
 import React from "react";
 import { Checkbox, CheckboxGroup } from "@chakra-ui/core";
+import { IoIosArrowDown } from "react-icons/io";
+import { Divider } from "@chakra-ui/core";
 
 const CheckboxColumn = () => {
   return (
@@ -7,6 +9,11 @@ const CheckboxColumn = () => {
       <div className="row">
         <div className="col-md-10 checkboxes">
           <CheckboxGroup>
+            <Divider />
+            <span>
+              <IoIosArrowDown />
+              Accomdation Type
+            </span>
             <Checkbox value="Timeshare">Timeshare</Checkbox>
             <Checkbox value="Resort">Resort</Checkbox>
             <Checkbox value="Hotels">Hotels</Checkbox>
@@ -19,6 +26,11 @@ const CheckboxColumn = () => {
       <div className="row">
         <div className="col-md-10 checkboxes">
           <CheckboxGroup>
+            <Divider />
+            <span>
+              <IoIosArrowDown />
+              Popular Filters
+            </span>
             <Checkbox value="Pool">Pool</Checkbox>
             <Checkbox value="Free Wifi">Free Wifi</Checkbox>
             <Checkbox value="Free Parking">Free Parking</Checkbox>
@@ -30,6 +42,11 @@ const CheckboxColumn = () => {
       <div className="row">
         <div className="col-md-10 checkboxes">
           <CheckboxGroup>
+            <Divider />
+            <span>
+              <IoIosArrowDown />
+              Star Ratings
+            </span>
             <Checkbox value="5 star">5 star</Checkbox>
             <Checkbox value="4 star">4 star</Checkbox>
             <Checkbox value="3 star">3 star</Checkbox>
@@ -41,6 +58,11 @@ const CheckboxColumn = () => {
       <div className="row">
         <div className="col-md-10 checkboxes">
           <CheckboxGroup>
+            <Divider />
+            <span>
+              <IoIosArrowDown />
+              Guest Ratings
+            </span>
             <Checkbox value="Superb 9+">Superb 9+</Checkbox>
             <Checkbox value="Very Good 8+">Very Good 8+</Checkbox>
             <Checkbox value="Good 7+">Good 7+</Checkbox>
@@ -52,6 +74,11 @@ const CheckboxColumn = () => {
       <div className="row">
         <div className="col-md-10 checkboxes">
           <CheckboxGroup>
+            <Divider />
+            <span>
+              <IoIosArrowDown />
+              Facilities
+            </span>
             <Checkbox value="Parking">Parking</Checkbox>
             <Checkbox value="Free Wifi">Free Wifi</Checkbox>
             <Checkbox value="Room Service">Room Service</Checkbox>
