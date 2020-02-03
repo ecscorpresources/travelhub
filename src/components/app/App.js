@@ -6,9 +6,9 @@ import Navbar from "../includes/Navbar";
 import Homepage from "../pages/Homepage/Homepage";
 import Footer from "../includes/Footer";
 import { ThemeProvider } from "@chakra-ui/core";
-import ResortHotels from "../pages/Homepage/ResortHotels";
-import ToursGuide from "../pages/Homepage/ToursGuide";
-import CarRental from "../pages/Homepage/CarRentals/CarRental";
+import ResortHotels from "../pages/ResortHotels/ResortHotels";
+import ToursGuide from "../pages/ToursGuide/ToursGuide";
+import CarRental from "../pages/CarRentals/CarRental";
 import MainCruise from "../pages/Cruise/MainCruise";
 
 function App() {

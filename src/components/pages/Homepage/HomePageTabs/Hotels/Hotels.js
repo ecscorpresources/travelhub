@@ -5,7 +5,7 @@ const Hotels = () => {
     <>
       <div id="hotelsFirstSection">
         <img
-          src={require("../../../assets/img/23.png")}
+          src={require("../../../../../assets/img/23.png")}
           alt=""
           className="paris_image"
         />
@@ -39,7 +39,7 @@ const Hotels = () => {
       <div id="hotelsSecondSection" className="container-fluid">
         <div className="row">
           <div className="col-md-3">
-            <img src={require("../../../assets/img/24.png")} alt="" />
+            <img src={require("../../../../../assets/img/24.png")} alt="" />
 
             <div>
               <p>Zuri Zanzibal Hotel</p>
@@ -47,14 +47,14 @@ const Hotels = () => {
           </div>
 
           <div className="col-md-3">
-            <img src={require("../../../assets/img/25.png")} alt="" />
+            <img src={require("../../../../../assets/img/25.png")} alt="" />
             <div>
               <p>Kaya Mawa</p>
             </div>
           </div>
 
           <div className="col-md-3">
-            <img src={require("../../../assets/img/26.png")} alt="" />
+            <img src={require("../../../../../assets/img/26.png")} alt="" />
             <div>
               <p>Boston Harbour Hotel</p>
             </div>

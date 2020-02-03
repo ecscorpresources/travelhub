@@ -33,7 +33,10 @@ const Cruise = () => {
             <div>
               <ul>
                 <li>
-                  <img src={require("../../../assets/img/36.png")} alt="" />
+                  <img
+                    src={require("../../../../../assets/img/36.png")}
+                    alt=""
+                  />
                   MSC Cruises
                 </li>
                 <li>
@@ -48,7 +51,10 @@ const Cruise = () => {
             <div>
               <ul>
                 <li>
-                  <img src={require("../../../assets/img/37.png")} alt="" />
+                  <img
+                    src={require("../../../../../assets/img/37.png")}
+                    alt=""
+                  />
                 </li>
                 <li>
                   <Link to="monhkey">VIEW DETAILS</Link>

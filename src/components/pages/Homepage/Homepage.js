@@ -2,7 +2,7 @@ import React from "react";
 import Destination from "../../includes/Destination";
 import { Link } from "react-router-dom";
 import { FaQuoteLeft, FaQuoteRight } from "react-icons/fa";
-import Resort from "./Resort";
+import Resort from "./HomePageTabs/Resorts/Resort";
 
 const Homepage = () => {
   return (

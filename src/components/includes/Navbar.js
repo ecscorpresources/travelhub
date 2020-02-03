@@ -1,10 +1,16 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { withRouter } from "react-router-dom";
 
-const Navbar = () => {
+const Navbar = props => {
+  console.log(props.location.pathname);
+
   return (
     <>
-      <nav className="navbar navbar-expand-lg">
+      <nav
+        className="navbar navbar-expand-lg"
+        style={{ backgroundColor: "transparent" }}
+      >
         <Link className="nav-brand" to="/">
           <img src={require("../../assets/img/Carlaylogo.png")} alt="" />
         </Link>
@@ -28,16 +34,16 @@ const Navbar = () => {
               </Link>
             </li>
             <li className="nav-item links dropdown">
-              <Link
+              <a
                 className="nav-link links dropdown-toggle"
-                href="#"
+                href="#!"
                 id="navbarDropdownMenuLink"
                 data-toggle="dropdown"
                 aria-haspopup="true"
                 aria-expanded="false"
               >
                 Other Services
-              </Link>
+              </a>
               <div
                 className="dropdown-menu"
                 aria-labelledby="navbarDropdownMenuLink"
@@ -80,4 +86,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default withRouter(Navbar);

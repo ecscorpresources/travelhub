@@ -1,0 +1,271 @@
+#carrentalFirstSection {
+  background-color: #f5f5f5;
+}
+
+#carrentalFirstSection table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#carrentalFirstSection .row {
+  justify-content: center;
+}
+
+#carrentalFirstSection div.first_div span {
+  font-size: 20px;
+}
+
+#carrentalFirstSection div.first_div {
+  background-color: #d2d3d5;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#carrentalFirstSection div.second_div {
+  background-color: #e6e7e8;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+#carrentalFirstSection div.first_div a {
+  padding-left: 20px;
+}
+
+#carrentalFirstSection h1 {
+  padding-bottom: 30px;
+  font-size: 32px;
+  font-weight: bold;
+  padding-top: 30px;
+  margin-bottom: 0;
+  color: #d2d3d5;
+}
+
+#carrentalFirstSection ul {
+  list-style: none;
+}
+
+#carrentalFirstSection ul li {
+  font-weight: bold;
+  color: grey;
+}
+
+#carrentalFirstSection ul li span {
+  font-weight: 100;
+}
+
+#carrentalFirstSection div.second_div {
+  display: flex;
+}
+
+#carrentalFirstSection div.second_div ul:last-child {
+  margin-left: 20px;
+  border-left: 2px solid #d2d3d5;
+  padding-left: 20px;
+}
+
+#carrentalSecondSection {
+  background: #f5f5f5;
+  padding-bottom: 100px;
+}
+
+#carrentalSecondSection .row.parent {
+  justify-content: center;
+}
+
+#carrentalSecondSection .col-md-2 {
+  background-color: #ddd;
+}
+
+#carrentalSecondSection .col-md-9 .col-md-8 h1 {
+  font-size: 25px;
+  color: #0a5c7d;
+}
+
+#carrentalSecondSection .col-md-9 .col-md-8 div.container {
+  display: flex;
+}
+
+#carrentalSecondSection .col-md-9 .col-md-8 div img {
+  align-self: center;
+}
+
+#carrentalSecondSection .col-md-9 .col-md-8 div ul {
+  margin-bottom: 0;
+  margin-right: 0;
+  margin-left: 40px;
+  margin-top: 20px;
+  list-style: none;
+}
+
+#carrentalSecondSection .col-md-9 .col-md-8 div ul li {
+  margin-bottom: 10px;
+}
+
+#carrentalSecondSection .col-md-9 .col-md-8 div ul li img {
+  margin-right: 10px;
+}
+
+#carrentalSecondSection .col-md-9 .col-md-8 div ul li:last-child {
+  position: relative;
+  top: 30px;
+}
+
+#carrentalSecondSection .col-md-9 .col-md-8 div h1 span {
+  color: #000;
+  font-size: 15px;
+}
+
+#carrentalSecondSection .col-md-9 .col-md-4 {
+  text-align: right;
+}
+
+#carrentalSecondSection .col-md-8 img.cruise {
+  width: 35%;
+}
+
+#carrentalSecondSection .col-md-9 .col-md-4 p {
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
+#carrentalSecondSection .col-md-9 .col-md-4 a {
+  color: #fff;
+  text-decoration: none;
+  background-color: #0a5c7d;
+  padding: 10px 40px;
+  margin-top: 9px;
+  display: inline-block;
+}
+
+#carrentalSecondSection .col-md-9 .col-md-4 h2 {
+  font-size: 25px;
+  font-weight: bold;
+  color: #f58634;
+}
+
+#carrentalSecondSection .col-md-9 .col-md-4 h3 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#carrentalSecondSection .col-md-9 .row.individual_row {
+  background: #fff;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  margin-right: 0px;
+  border: 2px solid #ddd;
+  padding: 10px 0px;
+}
+
+hr.first_divider {
+  width: 224px;
+  margin-left: -15px;
+  margin-top: 20px;
+}
+
+hr.divider {
+  width: 224px;
+  margin-left: -15px;
+  margin-top: 40px;
+}
+
+#carrentalSecondSection .col-md-2 span {
+  font-weight: bold;
+}
+
+#carrentalSecondSection .col-md-2 h1 {
+  font-size: 30px;
+  margin-bottom: 0;
+  padding-top: 13px;
+}
+
+.css-nlndso {
+  border: 1px solid #000 !important;
+}
+
+#carrentalSecondSection .col-md-4 {
+  text-align: center;
+}
+
+#carrentalSecondSection .col-md-4 a {
+  color: #fff;
+  background: #0a5c7d;
+  display: inline-block;
+  padding: 9px 44px;
+  margin-bottom: 20px;
+  text-decoration: none;
+  letter-spacing: 3px;
+  margin-left: -108px;
+}
+
+#carrentalCarsSection {
+  background: #f5f5f5;
+  padding-top: 40px;
+}
+
+#carrentalCarsSection ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+#carrentalCarsSection ul li {
+  font-weight: bold;
+  font-size: 17px;
+}
+
+#carrentalCarsSection ul li:first-child::after {
+  content: "";
+  display: block;
+  width: 190px;
+  height: 3px;
+  border: 2px solid green;
+  background: #000;
+}
+
+#carrentalCarsSection ul li:nth-child(2)::after {
+  content: "";
+  display: block;
+  width: 190px;
+  height: 3px;
+  border: 2px solid #000;
+  background: #000;
+}
+
+#carrentalCarsSection ul li:nth-child(3)::after {
+  content: "";
+  display: block;
+  width: 190px;
+  height: 3px;
+  border: 2px solid #ddd;
+}
+
+#carrentalCarsSection ul li:nth-child(4)::after {
+  content: "";
+  display: block;
+  width: 190px;
+  height: 3px;
+  border: 2px solid #ddd;
+}
+
+#carrentalCarsSection .row.row_1 {
+  justify-content: center;
+}
+
+#carrentalCarsSection .row.row_2 {
+  justify-content: center;
+  padding-left: 160px;
+  padding-top: 60px;
+}
+
+#carrentalCarsSection .row.row_2 .col-md-2 {
+  text-align: center;
+}
+
+#carrentalCarsSection .row.row_2 .col-md-2:nth-child(2),
+#carrentalCarsSection .row.row_2 .col-md-2:nth-child(3),
+#carrentalCarsSection .row.row_2 .col-md-2:nth-child(4),
+#carrentalCarsSection .row.row_2 .col-md-2:nth-child(5) {
+  border-left: 2px solid #ddd;
+}
