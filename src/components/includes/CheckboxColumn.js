@@ -10,10 +10,10 @@ const CheckboxColumn = () => {
         <div className="col-md-10 checkboxes">
           <CheckboxGroup>
             <Divider />
-            <span>
+            {/* <span>
               <IoIosArrowDown />
               Accomdation Type
-            </span>
+            </span> */}
             <Checkbox value="Timeshare" className="checkbox">
               Timeshare
             </Checkbox>
@@ -29,10 +29,10 @@ const CheckboxColumn = () => {
         <div className="col-md-10 checkboxes">
           <CheckboxGroup>
             <Divider />
-            <span>
+            {/* <span>
               <IoIosArrowDown />
               Popular Filters
-            </span>
+            </span> */}
             <Checkbox value="Pool">Pool</Checkbox>
             <Checkbox value="Free Wifi">Free Wifi</Checkbox>
             <Checkbox value="Free Parking">Free Parking</Checkbox>
@@ -45,10 +45,10 @@ const CheckboxColumn = () => {
         <div className="col-md-10 checkboxes">
           <CheckboxGroup>
             <Divider />
-            <span>
+            {/* <span>
               <IoIosArrowDown />
               Star Ratings
-            </span>
+            </span> */}
             <Checkbox value="5 star">5 star</Checkbox>
             <Checkbox value="4 star">4 star</Checkbox>
             <Checkbox value="3 star">3 star</Checkbox>
@@ -61,10 +61,10 @@ const CheckboxColumn = () => {
         <div className="col-md-10 checkboxes">
           <CheckboxGroup>
             <Divider />
-            <span>
+            {/* <span>
               <IoIosArrowDown />
               Guest Ratings
-            </span>
+            </span> */}
             <Checkbox value="Superb 9+">Superb 9+</Checkbox>
             <Checkbox value="Very Good 8+">Very Good 8+</Checkbox>
             <Checkbox value="Good 7+">Good 7+</Checkbox>
@@ -77,10 +77,10 @@ const CheckboxColumn = () => {
         <div className="col-md-10 checkboxes">
           <CheckboxGroup>
             <Divider />
-            <span>
+            {/* <span>
               <IoIosArrowDown />
               Facilities
-            </span>
+            </span> */}
             <Checkbox value="Parking">Parking</Checkbox>
             <Checkbox value="Free Wifi">Free Wifi</Checkbox>
             <Checkbox value="Room Service">Room Service</Checkbox>

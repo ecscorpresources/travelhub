@@ -13,7 +13,7 @@ const Pagination = () => {
             <p>4928 properties found in your recent search</p>
             <div>
               <p>Not what you are looking for?</p>
-              <Link to="monkhey">Try your search again</Link>
+              <Link to="#">Try your search again</Link>
             </div>
           </div>
         </div>
@@ -24,38 +24,38 @@ const Pagination = () => {
                 <IoIosArrowBack />
               </li>
               <li>
-                <Link>1</Link>
+                <Link to="#">1</Link>
               </li>
               <li>
-                <Link>2</Link>
+                <Link to="#">2</Link>
               </li>
               <li>
-                <Link>3</Link>
+                <Link to="#">3</Link>
               </li>
               <li>
-                <Link>4</Link>
+                <Link to="#">4</Link>
               </li>
               <li>
-                <Link>5</Link>
+                <Link to="#">5</Link>
               </li>
               <li>
-                <Link>6</Link>
+                <Link to="#">6</Link>
               </li>
               <li>
-                <Link>7</Link>
+                <Link to="#">7</Link>
               </li>
               <li>
-                <Link>8</Link>
+                <Link to="#">8</Link>
               </li>
               <li>
-                <Link>9</Link>
+                <Link to="#">9</Link>
               </li>
               <li>
-                <Link>10 ....</Link>
+                <Link to="#">10 ....</Link>
               </li>
 
               <li>
-                <Link>1232</Link>
+                <Link to="#">1232</Link>
               </li>
               <li>
                 <IoIosArrowForward />

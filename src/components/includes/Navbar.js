@@ -3,14 +3,14 @@ import { Link } from "react-router-dom";
 import { withRouter } from "react-router-dom";
 
 const Navbar = props => {
-  console.log(props.location.pathname);
-
+  let location = props.location.pathname;
+  let navColorClasses = " navbar navbar-expand-lg navbackground";
+  if (location !== "/") {
+    navColorClasses = "navbar navbar-expand-lg resortnavbackground";
+  }
   return (
     <>
-      <nav
-        className="navbar navbar-expand-lg"
-        style={{ backgroundColor: "transparent" }}
-      >
+      <nav className={navColorClasses}>
         <Link className="nav-brand" to="/">
           <img src={require("../../assets/img/Carlaylogo.png")} alt="" />
         </Link>

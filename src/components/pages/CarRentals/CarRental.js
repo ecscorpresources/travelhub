@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import "./CarRental.css";
 import Pagination from "../../includes/Pagination/Pagination";
 import { Checkbox, CheckboxGroup } from "@chakra-ui/core";
-import { IoIosArrowDown } from "react-icons/io";
+// import { IoIosArrowDown } from "react-icons/io";
 import { Divider } from "@chakra-ui/core";
 
 const CarRental = () => {
@@ -85,10 +85,10 @@ const CarRental = () => {
             <h1>Filter Search</h1>
             <CheckboxGroup>
               <Divider className="first_divider" />
-              <span>
+              {/* <span>
                 <IoIosArrowDown />
                 Car Rental Brand
-              </span>
+              </span> */}
               <Checkbox value="">Alamo</Checkbox>
               <Checkbox value="">Avis</Checkbox>
               <Checkbox value="">Budget</Checkbox>
@@ -105,10 +105,10 @@ const CarRental = () => {
             </CheckboxGroup>
             <CheckboxGroup>
               <Divider className="divider" />
-              <span>
+              {/* <span>
                 <IoIosArrowDown />
                 Car Specification
-              </span>
+              </span> */}
               <Checkbox value="">Air Conditioning</Checkbox>
               <Checkbox value="">Automatic Transmission</Checkbox>
               <Checkbox value="">Manual Gearbox</Checkbox>
@@ -117,10 +117,10 @@ const CarRental = () => {
             </CheckboxGroup>
             <CheckboxGroup>
               <Divider className="divider" />
-              <span>
+              {/* <span>
                 <IoIosArrowDown />
                 Fuel
-              </span>
+              </span> */}
               <Checkbox value="">Petrol</Checkbox>
               <Checkbox value="">Diesel</Checkbox>
               <Checkbox value="">Hybrid</Checkbox>
