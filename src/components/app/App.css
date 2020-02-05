@@ -107,6 +107,12 @@ nav {
   background-color: #0089cc;
 }
 
+.spinner {
+  position: absolute;
+  top: 30%;
+  left: 38%;
+}
+
 .navbar-dark .navbar-nav .links {
   padding-left: 10px !important;
   color: #fff !important;
