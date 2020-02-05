@@ -413,9 +413,7 @@ select::after {
 }
 
 #homeFooterSection {
-  background: url("../../assets//img/thfooter.png") no-repeat;
-  background-position: center;
-  background-size: cover;
+  background-color: #d8d5a0;
 }
 
 #homeFooterSection ul {
