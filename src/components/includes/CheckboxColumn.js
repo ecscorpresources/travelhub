@@ -1,6 +1,6 @@
 import React from "react";
 import { Checkbox, CheckboxGroup } from "@chakra-ui/core";
-import { IoIosArrowDown } from "react-icons/io";
+// import { IoIosArrowDown } from "react-icons/io";
 import { Divider } from "@chakra-ui/core";
 
 const CheckboxColumn = () => {
