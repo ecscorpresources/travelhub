@@ -8,7 +8,7 @@ import Spinner from "../includes/Spinner";
 const Homepage = lazy(() => import("../pages/Homepage/Homepage"));
 const Footer = lazy(() => import("../includes/Footer"));
 const ResortHotels = React.lazy(() =>
-  import("../pages/ResortHotels/ResortHotels")
+import("../pages/ResortHotels/ResortHotels")
 );
 const ToursGuide = lazy(() => import("../pages/ToursGuide/ToursGuide"));
 const CarRental = lazy(() => import("../pages/CarRentals/CarRental"));
@@ -23,10 +23,10 @@ function App() {
             <Navbar />
             <Switch>
               <Route exact path="/" component={Homepage} />
-              <Route path="/resorts_hotels" component={ResortHotels} />
-              <Route path="/tours_guides" component={ToursGuide} />
-              <Route path="/car_rental" component={CarRental} />
-              <Route path="/cruise" component={MainCruise} />
+              <Route exact path="/resorts_hotels" component={ResortHotels} />
+              <Route exact path="/tours_guides" component={ToursGuide} />
+              <Route exact path="/car_rental" component={CarRental} />
+              <Route exact path="/cruise" component={MainCruise} />
             </Switch>
             <Footer />
           </Suspense>

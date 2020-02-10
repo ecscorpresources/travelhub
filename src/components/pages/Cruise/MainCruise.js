@@ -47,7 +47,7 @@ const MainCruise = () => {
             <img
               src={require("../../../assets/img/58.png")}
               alt=""
-              className="ship"
+              className="ship img-fluid"
             />
 
             <div className="white_box">
@@ -136,20 +136,28 @@ const MainCruise = () => {
                   <img
                     src={require("../../../assets/img/59.png")}
                     alt=""
-                    className="cruise"
+                    className="cruise img-fluid"
                   />
                   <ul>
                     <li>Embark - Ho Chin Minh</li>
                     <li>Disembark - Kampong, Cham</li>
                     <li>
-                      <img src={require("../../../assets/img/60.png")} alt="" />
+                      <img
+                        src={require("../../../assets/img/60.png")}
+                        alt=""
+                        className="img-fluid"
+                      />
                       <span>AmaWaterways, AmaDara</span>
                     </li>
                   </ul>
                 </div>
               </div>
               <div className="col-md-4">
-                <img src={require("../../../assets/img/61.png")} alt="" />
+                <img
+                  src={require("../../../assets/img/61.png")}
+                  alt=""
+                  className="img-fluid"
+                />
                 <p>Per Person</p>
                 <h2>USD 2,100</h2>
                 <h3>NGN 760, 200</h3>
@@ -164,20 +172,28 @@ const MainCruise = () => {
                   <img
                     src={require("../../../assets/img/62.png")}
                     alt=""
-                    className="cruise"
+                    className="cruise img-fluid"
                   />
                   <ul>
                     <li>Embark - Rio De Janneiro, Brazil</li>
                     <li>Disembark - Buenos Aire Voyage, Brazil</li>
                     <li>
-                      <img src={require("../../../assets/img/60.png")} alt="" />
+                      <img
+                        src={require("../../../assets/img/60.png")}
+                        alt=""
+                        className="img-fluid"
+                      />
                       <span>Amazara, Quest</span>
                     </li>
                   </ul>
                 </div>
               </div>
               <div className="col-md-4">
-                <img src={require("../../../assets/img/63.png")} alt="" />
+                <img
+                  src={require("../../../assets/img/63.png")}
+                  alt=""
+                  className="img-fluid"
+                />
                 <p>Per Person</p>
                 <h2>USD 1749.09</h2>
                 <h3>NGN 649,460.58</h3>
@@ -192,20 +208,28 @@ const MainCruise = () => {
                   <img
                     src={require("../../../assets/img/64.png")}
                     alt=""
-                    className="cruise"
+                    className="cruise img-fluid"
                   />
                   <ul>
                     <li>Embark - Capetown, South Africa</li>
                     <li>Disembark - Southampton, England, UK</li>
                     <li>
-                      <img src={require("../../../assets/img/60.png")} alt="" />
+                      <img
+                        src={require("../../../assets/img/60.png")}
+                        alt=""
+                        className="img-fluid"
+                      />
                       <span>AmaWaterways, AmaBella</span>
                     </li>
                   </ul>
                 </div>
               </div>
               <div className="col-md-4">
-                <img src={require("../../../assets/img/65.png")} alt="" />
+                <img
+                  src={require("../../../assets/img/65.png")}
+                  alt=""
+                  className="img-fluid"
+                />
                 <p>Per Person</p>
                 <h2>USD 2166.63</h2>
                 <h3>NGN 784,320,06</h3>
@@ -220,20 +244,28 @@ const MainCruise = () => {
                   <img
                     src={require("../../../assets/img/66.png")}
                     alt=""
-                    className="cruise"
+                    className="cruise img-fluid"
                   />
                   <ul>
                     <li>Embark - Miami, USA</li>
                     <li>Disembark - Miama, USA</li>
                     <li>
-                      <img src={require("../../../assets/img/60.png")} alt="" />
+                      <img
+                        src={require("../../../assets/img/60.png")}
+                        alt=""
+                        className="img-fluid"
+                      />
                       <span>Carnival, Conquest</span>
                     </li>
                   </ul>
                 </div>
               </div>
               <div className="col-md-4">
-                <img src={require("../../../assets/img/67.png")} alt="" />
+                <img
+                  src={require("../../../assets/img/67.png")}
+                  alt=""
+                  className="img-fluid"
+                />
                 <p>Per Person</p>
                 <h2>USD 184</h2>
                 <h3>NGN 66, 608</h3>
@@ -248,20 +280,28 @@ const MainCruise = () => {
                   <img
                     src={require("../../../assets/img/68.png")}
                     alt=""
-                    className="cruise"
+                    className="cruise img-fluid"
                   />
                   <ul>
                     <li>Embark - Genoa, Italy</li>
                     <li>Disembark - Barcelona, Spain</li>
                     <li>
-                      <img src={require("../../../assets/img/60.png")} alt="" />
+                      <img
+                        src={require("../../../assets/img/60.png")}
+                        alt=""
+                        className="img-fluid"
+                      />
                       <span>MSC Cruise, Divina</span>
                     </li>
                   </ul>
                 </div>
               </div>
               <div className="col-md-4">
-                <img src={require("../../../assets/img/69.png")} alt="" />
+                <img
+                  src={require("../../../assets/img/69.png")}
+                  alt=""
+                  className="img-fluid"
+                />
                 <p>Per Person</p>
                 <h2>USD 438</h2>
                 <h3>NGN 158, 556</h3>
