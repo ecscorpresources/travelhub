@@ -32,22 +32,10 @@ const Rentals = () => {
           <div className="col-md-12">
             <form>
               <div className="date">
-                <div>
-                  <input type="date" placeholder="Rental Date" />
-                  <img
-                    src={require("../../../../../assets/img/calendar.png")}
-                    alt=""
-                  />
-                </div>
-                <div>
-                  <input type="date" placeholder="Rental End" />
-                  <img
-                    src={require("../../../../../assets/img/calendar.png")}
-                    alt=""
-                  />
-                </div>
+                <input type="date" placeholder="Rental Date" />
+                <input type="date" placeholder="Rental End" />
               </div>
-              <div>
+              <div className="rent_car">
                 <select>
                   <option default="Country">Country</option>
                   <option value="Nigeria">Nigeria</option>
