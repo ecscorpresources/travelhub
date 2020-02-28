@@ -18,12 +18,12 @@ const Hotels = () => {
             />
           </div>
 
-          <div>
+          <div className="checkin_checkout">
             <input type="text" placeholder="Check In" className="checkin" />
             <input type="text" placeholder="Check Out" className="checkout" />
           </div>
 
-          <div>
+          <div className="submit_div">
             <select name="" id="">
               <option value="option1">option1</option>
               <option value="option2">option2</option>

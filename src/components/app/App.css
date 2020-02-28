@@ -553,31 +553,43 @@ select::after {
   padding: 10px 249px 10px 10px;
   margin-bottom: 15px;
   border: 1px solid #ddd;
+  width: 100%;
+}
+
+#hotelsFirstSection div.checkin_checkout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
 }
 
 #hotelsFirstSection input.checkin {
-  padding: 10px 10px;
-  margin-right: 15px;
+  padding: 10px 0px 10px 10px;
   margin-bottom: 15px;
   border: 1px solid #ddd;
 }
 
 #hotelsFirstSection input.checkout {
-  padding: 10px 10px;
+  padding: 10px 0px 10px 10px;
   margin-bottom: 15px;
   border: 1px solid #ddd;
 }
 
+#hotelsFirstSection div.submit_div {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-gap: 10px;
+}
+
 #hotelsFirstSection button {
-  padding: 10px 38px 10px 38px;
+  padding: 10px 0px 10px 10px;
   background: #0a5c7d;
   color: #fff;
   border: none;
+  text-align: center;
 }
 
 #hotelsFirstSection select {
-  padding: 10px 206px 10px 10px;
-  margin-right: 15px;
+  padding: 10px 0px 10px 10px;
   border: 1px solid #ddd;
   background: #fff !important;
   color: gray;
@@ -588,13 +600,6 @@ select::after {
   margin-left: 160px;
   position: relative;
 }
-
-/* 
-#hotelsFirstSection div.banner_div {
-  margin-right: 200px;
-  margin-left: 200px;
-  position: relative;
-} */
 
 #hotelsFirstSection div.banner_div {
   margin-right: 200px;
@@ -715,34 +720,34 @@ select::after {
 }
 
 #rentalThirdSection div.date {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
 }
 
-#rentalThirdSection div.date div {
-  position: relative;
-}
-
-#rentalThirdSection div.date div img {
-  position: absolute;
-  right: 15px;
-  top: 15px;
+#rentalThirdSection div.rent_car {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
 }
 
 #rentalThirdSection form div:first-child input,
 #rentalThirdSection form button {
   padding: 10px 90px 10px 8px;
-  margin-bottom: 20px;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-bottom: 10px;
   border: 1px solid #ddd;
   color: grey;
 }
 
+#rentalThirdSection form div:first-child input {
+  background: url("../../assets/img/calendar.png");
+  background-repeat: no-repeat;
+  background-position-x: 95%;
+  background-position-y: 50%;
+}
+
 #rentalThirdSection form button {
   padding: 10px 66px 10px 67px;
-  margin-bottom: 20px;
-  margin-left: 10px;
-  margin-right: 10px;
   border: 1px solid #ddd;
   color: #fff;
   background-color: #0a5c7d;
@@ -751,8 +756,7 @@ select::after {
 
 #rentalThirdSection form select {
   padding: 10px 150px 10px 8px;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-bottom: 10px;
   border: 1px solid #ddd;
   color: grey;
 }
