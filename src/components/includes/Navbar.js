@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { withRouter } from "react-router-dom";
 
-const Navbar = props => {
+const Navbar = (props) => {
   let location = props.location.pathname;
   let navColorClasses = " navbar navbar-expand-lg navbackground";
   if (location !== "/") {
@@ -71,12 +71,12 @@ const Navbar = props => {
           <ul className="navbar-nav  homeLoginSignup">
             <li>
               <Link className="loginsignup signup" to="/signin">
-                Sign In
+                SignIn
               </Link>
             </li>
             <li>
               <Link className="loginsignup login" to="/signup">
-                Sign Up
+                SignUp
               </Link>
             </li>
           </ul>

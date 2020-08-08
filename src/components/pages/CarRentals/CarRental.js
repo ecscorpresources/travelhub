@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import "./CarRental.css";
 import Pagination from "../../includes/Pagination/Pagination";
 import { Checkbox, CheckboxGroup } from "@chakra-ui/core";
-// import { IoIosArrowDown } from "react-icons/io";
 import { Divider } from "@chakra-ui/core";
 
 const CarRental = () => {
