@@ -8,9 +8,9 @@ const Footer = () => {
   return (
     <>
       <footer className="footer">
-        <section className="footer__links">
-          <div>
-            <h5>Looking For</h5>
+        <section className="footer__links row justify-content-center">
+          <div className="col-md-4">
+            <h5>Get Away</h5>
             <ul>
               {footerlinks.links1.map((link, index) => (
                 <li key={index}>
@@ -19,8 +19,8 @@ const Footer = () => {
               ))}
             </ul>
           </div>
-          <div>
-            <h5>Properties</h5>
+          <div className="col-md-4">
+            <h5>Have a Peek</h5>
             <ul>
               {footerlinks.links2.map((link, index) => (
                 <li key={index}>
@@ -30,21 +30,10 @@ const Footer = () => {
             </ul>
           </div>
 
-          <div>
-            <h5>Quick Assits</h5>
-            <ul>
-              {footerlinks.links3.map((link, index) => (
-                <li key={index}>
-                  <Link to={link.path}>{link.text}</Link>
-                </li>
-              ))}
-            </ul>
-          </div>
-
-          <div>
+          <div className="col-md-4">
             <h5>Have A Question ? </h5>
             <ul>
-              {footerlinks.links4.map((link, index) => (
+              {footerlinks.links3.map((link, index) => (
                 <li key={index}>
                   <Link to={link.path}>{link.text}</Link>
                 </li>
@@ -61,7 +50,6 @@ const Footer = () => {
             </ul>
           </div>
         </section>
-
         <p>Copyright &copy; {new Date().getFullYear()} All Rights Reserved.</p>
       </footer>
     </>

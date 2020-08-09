@@ -1,6 +1,6 @@
 import React, { lazy, Suspense } from "react";
 import { ThemeProvider } from "@chakra-ui/core";
-import "./App.css";
+import "./App.scss";
 import "bootstrap/dist/css/bootstrap.css";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Navbar from "./components/Globals/Navbar";

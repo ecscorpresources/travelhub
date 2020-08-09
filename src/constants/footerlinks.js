@@ -1,68 +1,56 @@
 export default {
   links1: [
     {
-      text: "flight books",
+      text: "flight bookings",
       path: "/",
     },
 
     {
-      text: "Apartments",
+      text: "hotel bookings",
       path: "/",
     },
 
     {
-      text: "Commercial",
+      text: "car rentals",
       path: "/",
     },
 
     {
-      text: "Lands",
+      text: "tour packages",
       path: "/",
     },
   ],
 
   links2: [
     {
-      text: "For Sale",
+      text: "about us",
       path: "/",
     },
 
     {
-      text: "For Rent",
+      text: "travel tips",
       path: "/",
     },
 
     {
-      text: "For Short Let",
+      text: "privacy policy",
       path: "/",
     },
 
     {
-      text: "For Lease",
+      text: "terms & conditions",
+      path: "/",
+    },
+
+    {
+      text: "insurance",
       path: "/",
     },
   ],
 
   links3: [
     {
-      text: "Locate An Agent",
-      path: "/",
-    },
-
-    {
-      text: "List A Property",
-      path: "/",
-    },
-
-    {
-      text: "Post A Request",
-      path: "/",
-    },
-  ],
-
-  links4: [
-    {
-      text: "How to book",
+      text: "how to book",
       path: "/",
     },
 
@@ -72,7 +60,7 @@ export default {
     },
 
     {
-      text: "Contact",
+      text: "contact",
       path: "/",
     },
   ],
