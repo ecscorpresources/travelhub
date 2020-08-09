@@ -1,7 +1,7 @@
 import React from "react";
 import "./ResortHotels.css";
 import { Checkbox } from "@chakra-ui/core";
-import HotelReservation from "../../pages/Homepage/HotelReservation";
+import HotelReservation from "../../pages/HotelReservation";
 import CheckboxColumn from "../../components/Globals/CheckboxColumn";
 import Pagination from "../../components/Globals/Pagination/Pagination";
 

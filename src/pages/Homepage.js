@@ -1,8 +1,8 @@
 import React from "react";
-import Destination from "../../components/Globals/Destination";
+import Destination from "../components/Globals/Destination";
 import { Link } from "react-router-dom";
 import { FaQuoteLeft, FaQuoteRight } from "react-icons/fa";
-import Resort from "../../pages/Homepage/HomePageTabs/Resorts/Resort";
+import Resort from "../components/HomePageTabs/Resorts/Resort";
 
 const Homepage = () => {
   return (
@@ -114,7 +114,7 @@ const Homepage = () => {
           <div className="col-md-12">
             <h1>Popular Destinations</h1>
             <img
-              src={require("../../assets/img/dots.png")}
+              src={require("../assets/img/dots.png")}
               alt=""
               className="img-fluid"
             />
@@ -122,17 +122,17 @@ const Homepage = () => {
         </div>
         <div className="row row-2">
           <Destination
-            image={require("../../assets/img/2th.png")}
+            image={require("../assets/img/2th.png")}
             Country="Australia"
             City="Sydney"
           />
           <Destination
-            image={require("../../assets/img/3th.png")}
+            image={require("../assets/img/3th.png")}
             Country="Italy"
             City="Venice"
           />
           <Destination
-            image={require("../../assets/img/4th.png")}
+            image={require("../assets/img/4th.png")}
             Country="France"
             City="Paris"
           />
@@ -143,7 +143,7 @@ const Homepage = () => {
           <div className="col-10 col-sm-10 col-lg-4">
             <img
               className="img-fluid"
-              src={require("../../assets/img/5th.png")}
+              src={require("../assets/img/5th.png")}
               alt=""
             />
           </div>
@@ -159,7 +159,7 @@ const Homepage = () => {
               difference between <br /> danger and escape...
             </p>
             <img
-              src={require("../../assets/img/arrow.png")}
+              src={require("../assets/img/arrow.png")}
               alt=""
               className="img-fluid"
             />
@@ -168,7 +168,7 @@ const Homepage = () => {
             <div className="row">
               <div className="col-md-12">
                 <img
-                  src={require("../../assets/img/6th.png")}
+                  src={require("../assets/img/6th.png")}
                   alt=""
                   className="img-fluid"
                 />
@@ -177,7 +177,7 @@ const Homepage = () => {
             <div className="row">
               <div className="col-md-12 center-1">
                 <img
-                  src={require("../../assets/img/flyemirates.png")}
+                  src={require("../assets/img/flyemirates.png")}
                   alt=""
                   className="img-fluid"
                 />
@@ -186,7 +186,7 @@ const Homepage = () => {
             <div className="row">
               <div className="col-md-12  center-2">
                 <img
-                  src={require("../../assets/img/dots1.png")}
+                  src={require("../assets/img/dots1.png")}
                   alt=""
                   className="img-fluid"
                 />

@@ -6,7 +6,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Navbar from "./components/Globals/Navbar";
 import Footer from "./components/Globals/Footer";
 import Spinner from "./components/Globals/Spinner";
-const Homepage = lazy(() => import("./pages/Homepage/Homepage.js"));
+const Homepage = lazy(() => import("./pages/Homepage"));
 const ResortHotels = React.lazy(() =>
   import("./pages/ResortHotels/ResortHotels")
 );

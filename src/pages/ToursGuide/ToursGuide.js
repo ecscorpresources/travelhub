@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import "./ToursGuide.css";
 import SingleTour from "./SingleTour";
 import Pagination from "../../components/Globals/Pagination/Pagination";
-import Guide from "../../pages/Homepage/HomePageTabs/Resorts/Guide";
+import Guide from "../../components/HomePageTabs/Resorts/Guide";
 import { Checkbox, CheckboxGroup } from "@chakra-ui/core";
 import { IoIosArrowDown } from "react-icons/io";
 import { IoMdStar } from "react-icons/io";
