@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "./MainCruise.css";
-import Pagination from "../../components/Globals/Pagination/Pagination";
+import "../styles/maincruise.scss";
+import Pagination from "../components/Globals/Pagination/Pagination";
 import { Checkbox, CheckboxGroup } from "@chakra-ui/core";
 import { IoIosArrowDown } from "react-icons/io";
 import { Divider } from "@chakra-ui/core";
@@ -45,7 +45,7 @@ const MainCruise = () => {
           </div>
           <div className="col-md-8">
             <img
-              src={require("../../assets/img/58.png")}
+              src={require("../assets/img/58.png")}
               alt=""
               className="ship img-fluid"
             />
@@ -57,7 +57,7 @@ const MainCruise = () => {
               <div>
                 <ul>
                   <li>
-                    <img src={require("../../assets/img/36.png")} alt="" />
+                    <img src={require("../assets/img/36.png")} alt="" />
                     MSC Cruises
                   </li>
                   <li>
@@ -134,7 +134,7 @@ const MainCruise = () => {
                 </h1>
                 <div>
                   <img
-                    src={require("../../assets/img/59.png")}
+                    src={require("../assets/img/59.png")}
                     alt=""
                     className="cruise img-fluid"
                   />
@@ -143,7 +143,7 @@ const MainCruise = () => {
                     <li>Disembark - Kampong, Cham</li>
                     <li>
                       <img
-                        src={require("../../assets/img/60.png")}
+                        src={require("../assets/img/60.png")}
                         alt=""
                         className="img-fluid"
                       />
@@ -154,7 +154,7 @@ const MainCruise = () => {
               </div>
               <div className="col-md-4">
                 <img
-                  src={require("../../assets/img/61.png")}
+                  src={require("../assets/img/61.png")}
                   alt=""
                   className="img-fluid"
                 />
@@ -170,7 +170,7 @@ const MainCruise = () => {
                 <h1>9 Night Rio To Buenos Aires Voyage</h1>
                 <div>
                   <img
-                    src={require("../../assets/img/62.png")}
+                    src={require("../assets/img/62.png")}
                     alt=""
                     className="cruise img-fluid"
                   />
@@ -179,7 +179,7 @@ const MainCruise = () => {
                     <li>Disembark - Buenos Aire Voyage, Brazil</li>
                     <li>
                       <img
-                        src={require("../../assets/img/60.png")}
+                        src={require("../assets/img/60.png")}
                         alt=""
                         className="img-fluid"
                       />
@@ -190,7 +190,7 @@ const MainCruise = () => {
               </div>
               <div className="col-md-4">
                 <img
-                  src={require("../../assets/img/63.png")}
+                  src={require("../assets/img/63.png")}
                   alt=""
                   className="img-fluid"
                 />
@@ -206,7 +206,7 @@ const MainCruise = () => {
                 <h1>17 CapeTown to Southampton</h1>
                 <div>
                   <img
-                    src={require("../../assets/img/64.png")}
+                    src={require("../assets/img/64.png")}
                     alt=""
                     className="cruise img-fluid"
                   />
@@ -215,7 +215,7 @@ const MainCruise = () => {
                     <li>Disembark - Southampton, England, UK</li>
                     <li>
                       <img
-                        src={require("../../assets/img/60.png")}
+                        src={require("../assets/img/60.png")}
                         alt=""
                         className="img-fluid"
                       />
@@ -226,7 +226,7 @@ const MainCruise = () => {
               </div>
               <div className="col-md-4">
                 <img
-                  src={require("../../assets/img/65.png")}
+                  src={require("../assets/img/65.png")}
                   alt=""
                   className="img-fluid"
                 />
@@ -242,7 +242,7 @@ const MainCruise = () => {
                 <h1>2-Night Bahamas Cruise from Miami</h1>
                 <div>
                   <img
-                    src={require("../../assets/img/66.png")}
+                    src={require("../assets/img/66.png")}
                     alt=""
                     className="cruise img-fluid"
                   />
@@ -251,7 +251,7 @@ const MainCruise = () => {
                     <li>Disembark - Miama, USA</li>
                     <li>
                       <img
-                        src={require("../../assets/img/60.png")}
+                        src={require("../assets/img/60.png")}
                         alt=""
                         className="img-fluid"
                       />
@@ -262,7 +262,7 @@ const MainCruise = () => {
               </div>
               <div className="col-md-4">
                 <img
-                  src={require("../../assets/img/67.png")}
+                  src={require("../assets/img/67.png")}
                   alt=""
                   className="img-fluid"
                 />
@@ -278,7 +278,7 @@ const MainCruise = () => {
                 <h1>17 Capetown to Southampton</h1>
                 <div>
                   <img
-                    src={require("../../assets/img/68.png")}
+                    src={require("../assets/img/68.png")}
                     alt=""
                     className="cruise img-fluid"
                   />
@@ -287,7 +287,7 @@ const MainCruise = () => {
                     <li>Disembark - Barcelona, Spain</li>
                     <li>
                       <img
-                        src={require("../../assets/img/60.png")}
+                        src={require("../assets/img/60.png")}
                         alt=""
                         className="img-fluid"
                       />
@@ -298,7 +298,7 @@ const MainCruise = () => {
               </div>
               <div className="col-md-4">
                 <img
-                  src={require("../../assets/img/69.png")}
+                  src={require("../assets/img/69.png")}
                   alt=""
                   className="img-fluid"
                 />

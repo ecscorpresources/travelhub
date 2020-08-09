@@ -11,8 +11,8 @@ const ResortHotels = React.lazy(() =>
   import("./pages/ResortHotels/ResortHotels")
 );
 const ToursGuide = lazy(() => import("./pages/ToursGuide/ToursGuide"));
-const CarRental = lazy(() => import("./pages/CarRentals/CarRental.js"));
-const MainCruise = lazy(() => import("./pages/Cruise/MainCruise"));
+const CarRental = lazy(() => import("./pages/CarRental"));
+const MainCruise = lazy(() => import("./pages/MainCruise"));
 
 function App() {
   return (

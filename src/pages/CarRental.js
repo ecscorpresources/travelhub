@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "./CarRental.css";
-import Pagination from "../../components/Globals/Pagination/Pagination";
+import "../styles/carrental.scss";
+import Pagination from "../components/Globals/Pagination/Pagination";
 import { Checkbox, CheckboxGroup } from "@chakra-ui/core";
 import { Divider } from "@chakra-ui/core";
 
@@ -52,23 +52,23 @@ const CarRental = () => {
         </div>
         <div className="row row_2">
           <div className="col-md-2">
-            <img src={require("../../assets/img/96.png")} alt="" />
+            <img src={require("../assets/img/96.png")} alt="" />
             <p>Small Cars</p>
           </div>
           <div className="col-md-2">
-            <img src={require("../../assets/img/97.png")} alt="" />
+            <img src={require("../assets/img/97.png")} alt="" />
             <p>Medium Cars</p>
           </div>
           <div className="col-md-2">
-            <img src={require("../../assets/img/98.png")} alt="" />
+            <img src={require("../assets/img/98.png")} alt="" />
             <p>Buses</p>
           </div>
           <div className="col-md-2">
-            <img src={require("../../assets/img/99.png")} alt="" />
+            <img src={require("../assets/img/99.png")} alt="" />
             <p>SUVs</p>
           </div>
           <div className="col-md-2">
-            <img src={require("../../assets/img/100.png")} alt="" />
+            <img src={require("../assets/img/100.png")} alt="" />
             <p>Luxury Cars</p>
           </div>
         </div>
@@ -130,7 +130,7 @@ const CarRental = () => {
               <div className="col-md-8">
                 <div className="container">
                   <img
-                    src={require("../../assets/img/80.png")}
+                    src={require("../assets/img/80.png")}
                     alt=""
                     className="cruise"
                   />
@@ -140,33 +140,33 @@ const CarRental = () => {
                     </h1>
                     <ul>
                       <li>
-                        <img src={require("../../assets/img/90.png")} alt="" />
+                        <img src={require("../assets/img/90.png")} alt="" />
                         <span> 5 Passengers</span>
                       </li>
                       <li>
-                        <img src={require("../../assets/img/91.png")} alt="" />
+                        <img src={require("../assets/img/91.png")} alt="" />
                         <span> 2 Large Suit Cases, 1 Small Suit Case</span>
                       </li>
                       <li>
-                        <img src={require("../../assets/img/92.png")} alt="" />
+                        <img src={require("../assets/img/92.png")} alt="" />
                         <span>Automatic Transmission</span>
                       </li>
                       <li>
-                        <img src={require("../../assets/img/93.png")} alt="" />
+                        <img src={require("../assets/img/93.png")} alt="" />
                         <span>Air Conditioning</span>
                       </li>
                       <li>
-                        <img src={require("../../assets/img/94.png")} alt="" />
+                        <img src={require("../assets/img/94.png")} alt="" />
                         <span> 4 Doors</span>
                       </li>
                       <li>
-                        <img src={require("../../assets/img/95.png")} alt="" />
+                        <img src={require("../assets/img/95.png")} alt="" />
                         <span> Rates Inclusions & Exclusions</span>
                       </li>
                     </ul>
                   </div>
                 </div>
-                <img src={require("../../assets/img/81.png")} alt="" />
+                <img src={require("../assets/img/81.png")} alt="" />
               </div>
               <div className="col-md-4">
                 <h4>Medium Car</h4>
@@ -181,7 +181,7 @@ const CarRental = () => {
               <div className="col-md-8">
                 <div className="container">
                   <img
-                    src={require("../../assets/img/82.png")}
+                    src={require("../assets/img/82.png")}
                     alt=""
                     className="cruise"
                   />
@@ -192,33 +192,33 @@ const CarRental = () => {
                     </h1>
                     <ul>
                       <li>
-                        <img src={require("../../assets/img/90.png")} alt="" />
+                        <img src={require("../assets/img/90.png")} alt="" />
                         <span> 5 Passengers</span>
                       </li>
                       <li>
-                        <img src={require("../../assets/img/91.png")} alt="" />
+                        <img src={require("../assets/img/91.png")} alt="" />
                         <span> 1 Large Suit Cases, 1 Small Suit Case</span>
                       </li>
                       <li>
-                        <img src={require("../../assets/img/92.png")} alt="" />
+                        <img src={require("../assets/img/92.png")} alt="" />
                         <span> Automatic Transmission</span>
                       </li>
                       <li>
-                        <img src={require("../../assets/img/93.png")} alt="" />
+                        <img src={require("../assets/img/93.png")} alt="" />
                         <span> Air Conditioning</span>
                       </li>
                       <li>
-                        <img src={require("../../assets/img/94.png")} alt="" />
+                        <img src={require("../assets/img/94.png")} alt="" />
                         <span> 4 Doors</span>
                       </li>
                       <li>
-                        <img src={require("../../assets/img/95.png")} alt="" />
+                        <img src={require("../assets/img/95.png")} alt="" />
                         <span> Rates Inclusions & Exclusions</span>
                       </li>
                     </ul>
                   </div>
                 </div>
-                <img src={require("../../assets/img/83.png")} alt="" />
+                <img src={require("../assets/img/83.png")} alt="" />
               </div>
               <div className="col-md-4">
                 <h4>Small Car</h4>
@@ -233,7 +233,7 @@ const CarRental = () => {
               <div className="col-md-8">
                 <div className="container">
                   <img
-                    src={require("../../assets/img/84.png")}
+                    src={require("../assets/img/84.png")}
                     alt=""
                     className="cruise"
                   />
@@ -243,33 +243,33 @@ const CarRental = () => {
                     </h1>
                     <ul>
                       <li>
-                        <img src={require("../../assets/img/90.png")} alt="" />
+                        <img src={require("../assets/img/90.png")} alt="" />
                         <span> 8 Passengers</span>
                       </li>
                       <li>
-                        <img src={require("../../assets/img/91.png")} alt="" />
+                        <img src={require("../assets/img/91.png")} alt="" />
                         <span> 3 Large Suit Cases, 1 Small Suit Case</span>
                       </li>
                       <li>
-                        <img src={require("../../assets/img/92.png")} alt="" />
+                        <img src={require("../assets/img/92.png")} alt="" />
                         <span> Manual Transmission</span>
                       </li>
                       <li>
-                        <img src={require("../../assets/img/93.png")} alt="" />
+                        <img src={require("../assets/img/93.png")} alt="" />
                         <span> Air Conditioning</span>
                       </li>
                       <li>
-                        <img src={require("../../assets/img/94.png")} alt="" />
+                        <img src={require("../assets/img/94.png")} alt="" />
                         <span> 3 Doors</span>
                       </li>
                       <li>
-                        <img src={require("../../assets/img/95.png")} alt="" />
+                        <img src={require("../assets/img/95.png")} alt="" />
                         <span> Rates Inclusions & Exclusions</span>
                       </li>
                     </ul>
                   </div>
                 </div>
-                <img src={require("../../assets/img/85.png")} alt="" />
+                <img src={require("../assets/img/85.png")} alt="" />
               </div>
               <div className="col-md-4">
                 <h4>Bus</h4>
@@ -284,7 +284,7 @@ const CarRental = () => {
               <div className="col-md-8">
                 <div className="container">
                   <img
-                    src={require("../../assets/img/86.png")}
+                    src={require("../assets/img/86.png")}
                     alt=""
                     className="cruise"
                   />
@@ -295,33 +295,33 @@ const CarRental = () => {
                     </h1>
                     <ul>
                       <li>
-                        <img src={require("../../assets/img/90.png")} alt="" />
+                        <img src={require("../assets/img/90.png")} alt="" />
                         <span> 4 Passengers</span>
                       </li>
                       <li>
-                        <img src={require("../../assets/img/91.png")} alt="" />
+                        <img src={require("../assets/img/91.png")} alt="" />
                         <span> 2 Large Suit Cases, 1 Small Suit Case</span>
                       </li>
                       <li>
-                        <img src={require("../../assets/img/92.png")} alt="" />
+                        <img src={require("../assets/img/92.png")} alt="" />
                         <span> Automatic Transmission</span>
                       </li>
                       <li>
-                        <img src={require("../../assets/img/93.png")} alt="" />
+                        <img src={require("../assets/img/93.png")} alt="" />
                         <span> Air Conditioning</span>
                       </li>
                       <li>
-                        <img src={require("../../assets/img/94.png")} alt="" />
+                        <img src={require("../assets/img/94.png")} alt="" />
                         <span> 2 Doors</span>
                       </li>
                       <li>
-                        <img src={require("../../assets/img/95.png")} alt="" />
+                        <img src={require("../assets/img/95.png")} alt="" />
                         <span> Rates Inclusions & Exclusions</span>
                       </li>
                     </ul>
                   </div>
                 </div>
-                <img src={require("../../assets/img/87.png")} alt="" />
+                <img src={require("../assets/img/87.png")} alt="" />
               </div>
               <div className="col-md-4">
                 <h4>Luxury Cars</h4>
@@ -336,7 +336,7 @@ const CarRental = () => {
               <div className="col-md-8">
                 <div className="container">
                   <img
-                    src={require("../../assets/img/88.png")}
+                    src={require("../assets/img/88.png")}
                     alt=""
                     className="cruise"
                   />
@@ -346,33 +346,33 @@ const CarRental = () => {
                     </h1>
                     <ul>
                       <li>
-                        <img src={require("../../assets/img/90.png")} alt="" />
+                        <img src={require("../assets/img/90.png")} alt="" />
                         <span> 5 Passengers</span>
                       </li>
                       <li>
-                        <img src={require("../../assets/img/91.png")} alt="" />
+                        <img src={require("../assets/img/91.png")} alt="" />
                         <span> 2 Large Suit Cases, 1 Small Suit Case</span>{" "}
                       </li>
                       <li>
-                        <img src={require("../../assets/img/92.png")} alt="" />{" "}
+                        <img src={require("../assets/img/92.png")} alt="" />{" "}
                         <span> Automatic Transmission</span>
                       </li>
                       <li>
-                        <img src={require("../../assets/img/93.png")} alt="" />
+                        <img src={require("../assets/img/93.png")} alt="" />
                         <span> Air Conditioning</span>
                       </li>
                       <li>
-                        <img src={require("../../assets/img/94.png")} alt="" />
+                        <img src={require("../assets/img/94.png")} alt="" />
                         <span> 4 Doors</span>
                       </li>
                       <li>
-                        <img src={require("../../assets/img/95.png")} alt="" />
+                        <img src={require("../assets/img/95.png")} alt="" />
                         <span> Rates Inclusions & Exclusions</span>
                       </li>
                     </ul>
                   </div>
                 </div>
-                <img src={require("../../assets/img/89.png")} alt="" />
+                <img src={require("../assets/img/89.png")} alt="" />
               </div>
               <div className="col-md-4">
                 <h4>SUV</h4>
