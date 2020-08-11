@@ -12,10 +12,6 @@
   color: grey;
 }
 
-#tourguideSecondSection {
-  /* padding-bottom: 50px; */
-}
-
 #tourguideSecondSection > .row.first {
   justify-content: center;
 }
@@ -238,49 +234,6 @@
 #tourguideFourthSection .col-md-10 {
   background: #e6e7e8;
   padding: 25px 20px 25px 20px;
-}
-
-/* tourguideFourth SECTION */
-
-#tourguideFourthSection .row.guides .col-md-3 img {
-  width: 100%;
-  height: auto;
-}
-
-#tourguideFourthSection .row.guides {
-  padding: 130px 113px 0px 113px;
-}
-
-#tourguideFourthSection .row.guides .col-md-3 div:nth-child(2) {
-  display: flex;
-  justify-content: space-between;
-  font-size: 14px;
-  position: relative;
-  top: -102px;
-  background: #fff;
-  align-items: center;
-  padding: 2px;
-}
-
-#tourguideFourthSection .row.guides p {
-  margin-bottom: 0;
-}
-
-#tourguideFourthSection .row.guides .col-md-3 p.name {
-  font-weight: bold;
-  font-size: 16px;
-}
-
-#tourguideFourthSection .row.guides .col-md-3 div:nth-child(3) p {
-  font-size: 13px;
-  font-family: NexaLight;
-}
-
-#tourguideFourthSection .row.guides .col-md-3 div:nth-child(3) {
-  position: relative;
-  top: -102px;
-  background-color: rgba(255, 255, 255, 0.5);
-  padding: 7px;
 }
 
 #tourguideThirdSection .col-md-2.column_1 .col-md-10 {

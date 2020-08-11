@@ -7,8 +7,8 @@ import Navbar from "./components/Globals/Navbar";
 import Footer from "./components/Globals/Footer";
 import Spinner from "./components/Globals/Spinner";
 const Homepage = lazy(() => import("./pages/Homepage"));
-const ResortHotels = React.lazy(() =>
-  import("./pages/ResortHotels/ResortHotels")
+const Resort_Hotels_Lodges = React.lazy(() =>
+  import("./pages/resorts_hotels_lodge")
 );
 const ToursGuide = lazy(() => import("./pages/ToursGuide/ToursGuide"));
 const CarRental = lazy(() => import("./pages/CarRental"));
@@ -23,7 +23,11 @@ function App() {
             <Navbar />
             <Switch>
               <Route exact path="/" component={Homepage} />
-              <Route exact path="/resorts_hotels" component={ResortHotels} />
+              <Route
+                exact
+                path="/resorts_hotels"
+                component={Resort_Hotels_Lodges}
+              />
               <Route exact path="/tours_guides" component={ToursGuide} />
               <Route exact path="/car_rental" component={CarRental} />
               <Route exact path="/cruise" component={MainCruise} />

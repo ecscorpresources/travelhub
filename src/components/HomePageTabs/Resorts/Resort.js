@@ -2,10 +2,10 @@ import React from "react";
 import { Tabs, TabList, TabPanels, Tab, TabPanel } from "@chakra-ui/core";
 import SingleResort from "./SingleResort";
 import City from "../Resorts/City";
-import Guide from "../Resorts/Guide";
 import Hotels from "../Hotels";
 import Rentals from "../Rentals";
 import Cruise from "../Cruise";
+import Guides from "../../Guides";
 
 const text1 = (
   <>
@@ -127,32 +127,7 @@ const Resort = () => {
                   />
                 </div>
                 <div className="row guides">
-                  <Guide
-                    image={require("../../../assets/img/19.png")}
-                    name="Carlos"
-                    language="Portugese, English, Spanish"
-                    profile="Is a qualified tour guide with a vast knowledge of historical sites, wonderful restaurant recommendations and ..."
-                  />
-                  <Guide
-                    image={require("../../../assets/img/20.png")}
-                    name="Isaac"
-                    language="English, Ashante, Twi"
-                    profile="Isaac is a lincenced Tour Guide Director located in Accra Ghana and a native born Ghanaian from the Ashanti"
-                  />
-
-                  <Guide
-                    image={require("../../../assets/img/21.png")}
-                    name="Yi Fen"
-                    language="English, Taiwanese, Mandarin"
-                    profile="Please come and travel with me! It makes a big difference who you travel with. We can talk about Taiwan and..."
-                  />
-
-                  <Guide
-                    image={require("../../../assets/img/22.png")}
-                    name="Rene"
-                    language="English, French, Italian, Deutsch"
-                    profile="Now as a guide, I get to enjoy meeting people without being stressed with the selling part! changed my focus from..."
-                  />
+                  <Guides />
                 </div>
               </TabPanel>
               <TabPanel>

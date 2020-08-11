@@ -1,0 +1,105 @@
+#resorthotelsFirstSection,
+#resorthotelsSecondSection,
+#resorthotelsThirdSection {
+  background-color: #f5f5f5;
+}
+
+#resorthotelsFirstSection .row {
+  padding: 30px 100px;
+}
+
+#resorthotelsFirstSection h1 {
+  color: grey;
+}
+
+#resorthotelsSecondSection {
+  padding-bottom: 50px;
+}
+
+#resorthotelsSecondSection > .row.first {
+  justify-content: center;
+}
+
+#resorthotelsSecondSection .row.form_row_1 {
+  justify-content: center;
+}
+#resorthotelsSecondSection .col-md-10 {
+  background-color: #ddd;
+  padding: 40px 0px;
+}
+
+#resorthotelsSecondSection form input[type="text"],
+#resorthotelsSecondSection form input[type="date"] {
+  width: 100%;
+  padding: 10px 10px 10px 5px;
+  border: 1px solid #ddd;
+  color: grey;
+}
+
+#resorthotelsSecondSection .row.form_row_2 {
+  justify-content: center;
+  padding-top: 25px;
+}
+
+#resorthotelsSecondSection .row.form_row_2 select {
+  width: 30%;
+  border: 1px solid #000;
+  margin-left: 10px;
+  padding: 7px 0px;
+}
+
+#resorthotelsSecondSection p {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+#resorthotelsSecondSection p.children {
+  text-align: center;
+  margin-bottom: 0;
+  padding-left: 24px;
+}
+
+#resorthotelsSecondSection input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+#resorthotelsSecondSection button {
+  width: 100%;
+  padding: 10px 10px;
+  border: none;
+  color: #fff;
+  background-color: #0a5c7d;
+}
+
+#resorthotelsThirdSection {
+  padding-bottom: 50px;
+}
+
+#resorthotelsThirdSection .col-md-2.column_1 {
+  background: #ddd;
+  padding-top: 20px;
+  /* padding-bottom: 200px; */
+}
+
+#resorthotelsThirdSection .col-md-9 {
+  background: #fff;
+}
+#resorthotelsThirdSection .row.parent {
+  justify-content: center;
+}
+
+#resorthotelsThirdSection .col-md-2 .row {
+  justify-content: center;
+}
+
+#resorthotelsThirdSection .col-md-2 select {
+  width: 100%;
+  border: 1px solid #000;
+  padding: 6px;
+}
+
+#resorthotelsThirdSection .col-md-2 .col-md-10 h1 {
+  font-size: 18px;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
