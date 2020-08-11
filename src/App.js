@@ -6,13 +6,13 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Navbar from "./components/Globals/Navbar";
 import Footer from "./components/Globals/Footer";
 import Spinner from "./components/Globals/Spinner";
-const Homepage = lazy(() => import("./pages/Homepage"));
+const Homepage = lazy(() => import("./pages/homepage"));
 const Resort_Hotels_Lodges = React.lazy(() =>
   import("./pages/resorts_hotels_lodge")
 );
 const ToursGuide = lazy(() => import("./pages/ToursGuide/ToursGuide"));
-const CarRental = lazy(() => import("./pages/CarRental"));
-const MainCruise = lazy(() => import("./pages/MainCruise"));
+const CarRental = lazy(() => import("./pages/carrentalpage"));
+const MainCruise = lazy(() => import("./pages/cruisepage"));
 
 function App() {
   return (
