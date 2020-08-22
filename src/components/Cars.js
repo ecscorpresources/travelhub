@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Spinner from "../components/Globals/Spinner";
-import { cars } from "../data/cars";
+import cars from "../data/cars";
 import styled from "styled-components";
 import Car from "./Car";
 
@@ -14,9 +14,11 @@ class Cars extends Component {
   }
 
   render() {
+    console.log(this.state.cars);
+
     return (
       <>
-        {/* {this.state.cars.length === 0 ? (
+        {this.state.cars.length === 0 ? (
           <Spinner />
         ) : (
           <CarsWrapper>
@@ -24,8 +26,7 @@ class Cars extends Component {
               <Car key={car.id} car={car} />
             ))}
           </CarsWrapper>
-        )} */}
-        cars
+        )}
       </>
     );
   }

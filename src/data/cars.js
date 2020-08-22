@@ -9,7 +9,7 @@ import maker4 from "../assets/img/carrentals/87.png";
 import car5 from "../assets/img/carrentals/88.png";
 import maker5 from "../assets/img/carrentals/89.png";
 
-export const cars = [
+export default [
   {
     id: 1,
     img: car1,
