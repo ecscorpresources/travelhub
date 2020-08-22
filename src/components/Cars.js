@@ -14,8 +14,6 @@ class Cars extends Component {
   }
 
   render() {
-    console.log(this.state.cars);
-
     return (
       <>
         {this.state.cars.length === 0 ? (

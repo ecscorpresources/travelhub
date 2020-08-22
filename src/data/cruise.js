@@ -9,7 +9,7 @@ import company4 from "../assets/img/cruise/67.png";
 import cruise5 from "../assets/img/cruise/68.png";
 import company5 from "../assets/img/cruise/69.png";
 
-export const cars = [
+export default [
   {
     id: 1,
     img: cruise1,
