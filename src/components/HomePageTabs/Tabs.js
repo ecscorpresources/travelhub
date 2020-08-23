@@ -1,11 +1,11 @@
 import React from "react";
 import { Tabs, TabList, TabPanels, Tab, TabPanel } from "@chakra-ui/core";
-import SingleResort from "./SingleResort";
-import City from "../Resorts/City";
-import Hotels from "../Hotels";
-import Rentals from "../Rentals";
-import Cruise from "../Cruise";
-import Guides from "../../Tours/Guides";
+import City from "./City";
+import Hotels from "./Hotels";
+import Rentals from "./Rentals";
+import Cruise from "./Cruise";
+import Guides from "../Tours/Guides";
+import Resorts from "./Resorts";
 
 const text1 = (
   <>
@@ -25,7 +25,7 @@ const text2 = (
   </>
 );
 
-const Resort = () => {
+const HomeTabs = () => {
   return (
     <>
       <Tabs size="sm" variant="unstyled" isFitted>
@@ -45,56 +45,7 @@ const Resort = () => {
             <TabPanels>
               <TabPanel>
                 <div className="row resorts">
-                  <SingleResort
-                    image={require("../../../assets/img/8.png")}
-                    hotel="Hotel Madeira Regency Palace"
-                    hotel_location="Madera, Portugal"
-                  />
-                  <SingleResort
-                    image={require("../../../assets/img/8.png")}
-                    hotel="Hotel Madeira Regency Palace"
-                    hotel_location="Madera, Portugal"
-                  />
-                  <SingleResort
-                    image={require("../../../assets/img/9.png")}
-                    hotel="Hotel Madeira Regency Palace"
-                    hotel_location="Madera, Portugal"
-                  />
-                </div>
-                <div className="row resorts">
-                  <SingleResort
-                    image={require("../../../assets/img/10.png")}
-                    hotel="Hotel Madeira Regency Palace"
-                    hotel_location="Madera, Portugal"
-                  />
-                  <SingleResort
-                    image={require("../../../assets/img/11.png")}
-                    hotel="Hotel Madeira Regency Palace"
-                    hotel_location="Madera, Portugal"
-                  />
-                  <SingleResort
-                    image={require("../../../assets/img/12.png")}
-                    hotel="Hotel Madeira Regency Palace"
-                    hotel_location="Madera, Portugal"
-                  />
-                </div>
-
-                <div className="row resorts">
-                  <SingleResort
-                    image={require("../../../assets/img/13.png")}
-                    hotel="Hotel Madeira Regency Palace"
-                    hotel_location="Madera, Portugal"
-                  />
-                  <SingleResort
-                    image={require("../../../assets/img/14.png")}
-                    hotel="Hotel Madeira Regency Palace"
-                    hotel_location="Madera, Portugal"
-                  />
-                  <SingleResort
-                    image={require("../../../assets/img/15.png")}
-                    hotel="Hotel Madeira Regency Palace"
-                    hotel_location="Madera, Portugal"
-                  />
+                  <Resorts />
                 </div>
               </TabPanel>
               <TabPanel>
@@ -116,12 +67,12 @@ const Resort = () => {
                 </form>
                 <div className="row destinations">
                   <City
-                    image={require("../../../assets/img/17.png")}
+                    image={require("../../assets/img/HotelsResortsLodges/17.png")}
                     text={text1}
                     city="Visit Florence, Italy"
                   />
                   <City
-                    image={require("../../../assets/img/18.png")}
+                    image={require("../../assets/img/HotelsResortsLodges/18.png")}
                     text={text2}
                     city="Visit Accra, Ghana"
                   />
@@ -147,4 +98,4 @@ const Resort = () => {
   );
 };
 
-export default Resort;
+export default HomeTabs;

@@ -5,7 +5,7 @@ const Hotels = () => {
     <>
       <div id="hotelsFirstSection">
         <img
-          src={require("../../assets/img/23.png")}
+          src={require("../../assets/img/HotelsResortsLodges/23.png")}
           alt=""
           className="paris_image img-fluid"
         />
@@ -40,7 +40,7 @@ const Hotels = () => {
         <div className="row">
           <div className="col-md-3">
             <img
-              src={require("../../assets/img/24.png")}
+              src={require("../../assets/img/HotelsResortsLodges/24.png")}
               alt=""
               className="img-fluid"
             />
@@ -52,7 +52,7 @@ const Hotels = () => {
 
           <div className="col-md-3">
             <img
-              src={require("../../assets/img/25.png")}
+              src={require("../../assets/img/HotelsResortsLodges/25.png")}
               alt=""
               className="img-fluid"
             />
@@ -63,7 +63,7 @@ const Hotels = () => {
 
           <div className="col-md-3">
             <img
-              src={require("../../assets/img/26.png")}
+              src={require("../../assets/img/HotelsResortsLodges/26.png")}
               alt=""
               className="img-fluid"
             />

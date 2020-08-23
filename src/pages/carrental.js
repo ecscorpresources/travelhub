@@ -52,23 +52,23 @@ const CarRental = () => {
         </div>
         <div className="row row_2">
           <div className="col-md-2">
-            <img src={require("../assets/img/96.png")} alt="" />
+            <img src={require("../assets/img/carrentals/96.png")} alt="" />
             <p>Small Cars</p>
           </div>
           <div className="col-md-2">
-            <img src={require("../assets/img/97.png")} alt="" />
+            <img src={require("../assets/img/carrentals/97.png")} alt="" />
             <p>Medium Cars</p>
           </div>
           <div className="col-md-2">
-            <img src={require("../assets/img/98.png")} alt="" />
+            <img src={require("../assets/img/carrentals/98.png")} alt="" />
             <p>Buses</p>
           </div>
           <div className="col-md-2">
-            <img src={require("../assets/img/99.png")} alt="" />
+            <img src={require("../assets/img/carrentals/99.png")} alt="" />
             <p>SUVs</p>
           </div>
           <div className="col-md-2">
-            <img src={require("../assets/img/100.png")} alt="" />
+            <img src={require("../assets/img/carrentals/100.png")} alt="" />
             <p>Luxury Cars</p>
           </div>
         </div>

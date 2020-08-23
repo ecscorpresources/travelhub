@@ -2,6 +2,13 @@ import hotel1 from "../assets/img/HotelsResortsLodges/38.png";
 import hotel2 from "../assets/img/HotelsResortsLodges/40.png";
 import hotel3 from "../assets/img/HotelsResortsLodges/41.png";
 import hotel4 from "../assets/img/HotelsResortsLodges/42.png";
+import hotel5 from "../assets/img/HotelsResortsLodges/8.png";
+import hotel6 from "../assets/img/HotelsResortsLodges/9.png";
+import hotel7 from "../assets/img/HotelsResortsLodges/10.png";
+import hotel8 from "../assets/img/HotelsResortsLodges/12.png";
+import hotel9 from "../assets/img/HotelsResortsLodges/13.png";
+import hotel10 from "../assets/img/HotelsResortsLodges/14.png";
+import hotel11 from "../assets/img/HotelsResortsLodges/15.png";
 
 export default [
   {
@@ -21,6 +28,7 @@ export default [
     capacity: "1 night, 1 person",
     price: 17235,
     taxes: 4604,
+    featured: false,
   },
 
   {
@@ -40,6 +48,7 @@ export default [
     capacity: "1 night, 1 person",
     price: 52454,
     taxes: 5769.9,
+    featured: false,
   },
 
   {
@@ -57,6 +66,7 @@ export default [
     timeshare: false,
     capacity: "1 night, 1 person",
     price: 26408,
+    featured: false,
   },
 
   {
@@ -76,5 +86,146 @@ export default [
     capacity: "1 night, 1 person",
     price: 80758,
     taxes: 19648,
+    featured: false,
+  },
+
+  {
+    id: 5,
+    img: hotel5,
+    name: "hotel madeira regency palace",
+    type: "resort",
+    location: "madera, portugal",
+    creditcard: true,
+    description:
+      "situated in a quiet alpine setting, Timber Haven Lodge is located in Big Bear Lake California. An outdoor hot tub, table tennis and free Wifi access are featured at this lodge...",
+    rooms: "standard room",
+    bed: "1 double bed",
+    rating: 8.7,
+    reviews: 4281,
+    timeshare: true,
+    capacity: "1 night, 1 person",
+    price: 80758,
+    taxes: 19648,
+    featured: true,
+  },
+
+  {
+    id: 6,
+    img: hotel6,
+    name: "hotel madeira regency palace",
+    type: "resort",
+    location: "madera, portugal",
+    creditcard: true,
+    description:
+      "situated in a quiet alpine setting, Timber Haven Lodge is located in Big Bear Lake California. An outdoor hot tub, table tennis and free Wifi access are featured at this lodge...",
+    rooms: "standard room",
+    bed: "1 double bed",
+    rating: 8.7,
+    reviews: 4281,
+    timeshare: true,
+    capacity: "1 night, 1 person",
+    price: 80758,
+    taxes: 19648,
+    featured: true,
+  },
+
+  {
+    id: 7,
+    img: hotel7,
+    name: "hotel madeira regency palace",
+    type: "resort",
+    location: "madera, portugal",
+    creditcard: true,
+    description:
+      "situated in a quiet alpine setting, Timber Haven Lodge is located in Big Bear Lake California. An outdoor hot tub, table tennis and free Wifi access are featured at this lodge...",
+    rooms: "standard room",
+    bed: "1 double bed",
+    rating: 8.7,
+    reviews: 4281,
+    timeshare: true,
+    capacity: "1 night, 1 person",
+    price: 80758,
+    taxes: 19648,
+    featured: true,
+  },
+
+  {
+    id: 8,
+    img: hotel8,
+    name: "hotel madeira regency palace",
+    type: "resort",
+    location: "madera, portugal",
+    creditcard: true,
+    description:
+      "situated in a quiet alpine setting, Timber Haven Lodge is located in Big Bear Lake California. An outdoor hot tub, table tennis and free Wifi access are featured at this lodge...",
+    rooms: "standard room",
+    bed: "1 double bed",
+    rating: 8.7,
+    reviews: 4281,
+    timeshare: true,
+    capacity: "1 night, 1 person",
+    price: 80758,
+    taxes: 19648,
+    featured: true,
+  },
+
+  {
+    id: 9,
+    img: hotel9,
+    name: "hotel madeira regency palace",
+    type: "resort",
+    location: "madera, portugal",
+    creditcard: true,
+    description:
+      "situated in a quiet alpine setting, Timber Haven Lodge is located in Big Bear Lake California. An outdoor hot tub, table tennis and free Wifi access are featured at this lodge...",
+    rooms: "standard room",
+    bed: "1 double bed",
+    rating: 8.7,
+    reviews: 4281,
+    timeshare: true,
+    capacity: "1 night, 1 person",
+    price: 80758,
+    taxes: 19648,
+    featured: true,
+  },
+
+  {
+    id: 10,
+    img: hotel10,
+    name: "hotel madeira regency palace",
+    type: "resort",
+    location: "madera, portugal",
+    creditcard: true,
+    description:
+      "situated in a quiet alpine setting, Timber Haven Lodge is located in Big Bear Lake California. An outdoor hot tub, table tennis and free Wifi access are featured at this lodge...",
+    rooms: "standard room",
+    bed: "1 double bed",
+    rating: 8.7,
+    reviews: 4281,
+    timeshare: true,
+    capacity: "1 night, 1 person",
+    price: 80758,
+    taxes: 19648,
+    featured: true,
+  },
+
+  {
+    id: 11,
+    img: hotel11,
+    name: "hotel madeira regency palace",
+    type: "resort",
+    location: "madera, portugal",
+    creditcard: true,
+    description:
+      "situated in a quiet alpine setting, Timber Haven Lodge is located in Big Bear Lake California. An outdoor hot tub, table tennis and free Wifi access are featured at this lodge...",
+    rooms: "standard room",
+    bed: "1 double bed",
+    rating: 8.7,
+    reviews: 4281,
+    timeshare: true,
+    capacity: "1 night, 1 person",
+    price: 80758,
+    taxes: 19648,
+    featured: true,
   },
 ];

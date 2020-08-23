@@ -3,6 +3,8 @@ import guide2 from "../assets/img/toursandguides/47.png";
 import guide3 from "../assets/img/toursandguides/48.png";
 import guide4 from "../assets/img/toursandguides/49.png";
 import guide5 from "../assets/img/toursandguides/50.png";
+// import guide5 from "../assets/img/toursandguides/50.png";
+// import guide5 from "../assets/img/toursandguides/50.png";
 
 export default [
   {
@@ -115,6 +117,35 @@ export default [
       pets: false,
     },
     price: "97,740",
+    rating: 3,
+  },
+
+  {
+    id: 5,
+    img: guide5,
+    name: "st petersburg driving city tour",
+    location: "st petersburg, russia",
+    description:
+      "Any season is the right time to visit Saint-Petersburg. We live in a beautiful city and you will only want to see more",
+
+    numberofpeople: 5,
+    duration: "5 hours",
+    tours: {
+      all: false,
+      citytours: false,
+      museumtours: false,
+      naturetours: false,
+      walktours: false,
+      eatanddrinktours: false,
+      historictours: true,
+    },
+    others: {
+      groups: true,
+      disabled: true,
+      pets: true,
+    },
+
+    price: "76,020",
     rating: 3,
   },
 

@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { guides } from "../../data/guides";
 import styled from "styled-components";
 import Spinner from "../Globals/Spinner";
-import Guide from "../HomePageTabs/Resorts/Guide";
+import Guide from "../HomePageTabs/Guide";
 
 class Guides extends Component {
   state = {

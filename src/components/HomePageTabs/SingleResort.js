@@ -2,14 +2,14 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { MdStar } from "react-icons/md";
 
-const SingleResort = props => {
+const SingleResort = ({ resort }) => {
   return (
     <>
       <div className="col-md-3">
-        <img src={props.image} alt="" />
+        <img src={resort.img} alt="" />
         <div>
-          <p>{props.hotel}</p>
-          <p>{props.hotel_location}</p>
+          <p>{resort.name}</p>
+          <p>{resort.location}</p>
         </div>
         <div className="rating">
           <div>

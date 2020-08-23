@@ -53,7 +53,7 @@ a.loginsignup {
 }
 
 #homeFirstSection {
-  background: url("./assets/img/1th.png") no-repeat;
+  background: url("./assets/img/home/1th.png") no-repeat;
   background-position: center;
   background-size: cover;
   min-height: 856px;
@@ -96,7 +96,7 @@ a.loginsignup {
 
 /* palm section */
 #homepalmSection {
-  background: url("./assets/img/7.png") no-repeat;
+  background: url("./assets/img/home/7.png") no-repeat;
   background-position: center;
   background-size: cover;
   display: flex;
@@ -614,7 +614,7 @@ select::after {
 }
 
 #rentalThirdSection form div:first-child input {
-  background: url("./assets/img/calendar.png");
+  background: url("./assets/img/home/calendar.png");
   background-repeat: no-repeat;
   background-position-x: 95%;
   background-position-y: 50%;
@@ -640,7 +640,7 @@ select::after {
 }
 
 #cruiseFirstSection {
-  background: url("./assets/img/35.png") no-repeat;
+  background: url("./assets/img/cruise/35.png") no-repeat;
   /* background-size: cover; */
   background-position: center;
   height: 772px;

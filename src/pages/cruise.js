@@ -19,7 +19,7 @@ const Cruise = () => {
           <SearchCruise />
           <div className="col-md-8">
             <img
-              src={require("../assets/img/58.png")}
+              src={require("../assets/img/cruise/58.png")}
               alt=""
               className="ship img-fluid"
             />
@@ -31,7 +31,7 @@ const Cruise = () => {
               <div>
                 <ul>
                   <li>
-                    <img src={require("../assets/img/36.png")} alt="" />
+                    <img src={require("../assets/img/cruise/36.png")} alt="" />
                     MSC Cruises
                   </li>
                   <li>
