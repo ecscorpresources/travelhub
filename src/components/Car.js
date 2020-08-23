@@ -1,12 +1,12 @@
 import React from "react";
 // import PropTypes from "prop-types";
-// import styled from "styled-components";
 import carimg1 from "../assets/img/carrentals/90.png";
 import carimg2 from "../assets/img/carrentals/91.png";
 import carimg3 from "../assets/img/carrentals/92.png";
 import carimg4 from "../assets/img/carrentals/93.png";
 import carimg5 from "../assets/img/carrentals/94.png";
 import { ReservationLink } from "../components/Globals/StyledComponents";
+import styled from "styled-components";
 
 const Car = ({ car }) => {
   const {
@@ -26,17 +26,17 @@ const Car = ({ car }) => {
     priceinnaira,
   } = car;
   return (
-    <article className="d-flex justify-content-between">
-      <div className="mr-3">
+    <Wrapper className="d-flex car">
+      <div className="mr-4 d-flex flex-column justify-content-center align-items-center">
         <img src={img} alt="car" />
 
-        <div>
+        <div className="maker">
           <img src={maker} alt="maker" />
         </div>
       </div>
-      <div className="d-flex">
+      <div className="d-flex flex-grow-1 justify-content-between py-3 px-3">
         <div>
-          <div className="d-flex">
+          <div className="d-flex align-items-baseline">
             <h5 className="name mr-2">{name}</h5>
             <h6>or Similar</h6>
           </div>
@@ -70,22 +70,62 @@ const Car = ({ car }) => {
             </li>
           </ul>
         </div>
-        <div className="d-flex flex-column justify-content-between">
+        <div className="d-flex flex-column align-items-end justify-content-between">
           <div>
-            <h4>{size} Car</h4>
+            <h4 className="size text-capitalize">{size} Car</h4>
           </div>
-          <div>
-            <p>per Day</p>
-            <h3 className="priceindollar">USD {priceindollar}</h3>
-            <h3 className="priceinnaira">NGN {priceinnaira}</h3>
+          <div className="d-flex flex-column align-items-end">
+            <p className="mb-4">per Day</p>
+            <h3 className="priceindollar mb-2">USD {priceindollar}</h3>
+            <h3 className="priceinnaira mb-3">NGN {priceinnaira}</h3>
             <ReservationLink to="/car_rental">Reserve Vehicle</ReservationLink>
           </div>
         </div>
       </div>
-    </article>
+    </Wrapper>
   );
 };
 
 Car.propTypes = {};
+
+const Wrapper = styled.article`
+  border: 1px solid #ddd;
+  background-color: #fff;
+
+  .name {
+    font-size: 2rem;
+    text-transform: capitalize;
+    color: #0a5c7d;
+    margin-bottom: 1rem !important;
+  }
+
+  h6 {
+    font-size: 1.5rem;
+  }
+
+  ul li:not(:last-child) {
+    margin-bottom: 1rem !important;
+  }
+
+  ul li img {
+    margin-right: 1rem;
+  }
+
+  ul li span {
+    font-size: 1.3rem;
+  }
+
+  p {
+    font-size: 1.5rem;
+  }
+
+  .priceindollar {
+    font-size: 1.9rem;
+  }
+
+  .priceinnaira {
+    font-size: 1.5rem;
+  }
+`;
 
 export default Car;

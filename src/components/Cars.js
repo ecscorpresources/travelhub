@@ -30,6 +30,10 @@ class Cars extends Component {
   }
 }
 
-const CarsWrapper = styled.section``;
+const CarsWrapper = styled.section`
+  .car:not(:last-child) {
+    margin-bottom: 1rem;
+  }
+`;
 
 export default Cars;
