@@ -4,7 +4,7 @@ import guide3 from "../assets/img/toursandguides/48.png";
 import guide4 from "../assets/img/toursandguides/49.png";
 import guide5 from "../assets/img/toursandguides/50.png";
 
-export const tours = [
+export default [
   {
     id: 1,
     img: guide1,

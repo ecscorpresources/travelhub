@@ -2,7 +2,7 @@ import React from "react";
 import {
   TimeShareButton,
   ReservationLink,
-} from "../components/Globals/StyledComponents";
+} from "../../components/Globals/StyledComponents";
 import { FaRegCreditCard } from "react-icons/fa";
 import styled from "styled-components";
 

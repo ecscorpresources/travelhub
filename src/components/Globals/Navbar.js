@@ -26,7 +26,10 @@ const Navbar = (props) => {
           <span className="navbar-toggler-icon"></span>
         </button>
 
-        <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <div
+          className="d-flex justify-content-between collapse navbar-collapse"
+          id="navbarTogglerDemo02"
+        >
           <ul className="navbar-nav  mt-2 mt-lg-0 links homeNavLinks">
             <li className="nav-item active">
               <Link className="nav-link links" to="/">
@@ -48,13 +51,13 @@ const Navbar = (props) => {
                 className="dropdown-menu"
                 aria-labelledby="navbarDropdownMenuLink"
               >
-                <Link className="dropdown-item" to="resorts_hotels">
+                <Link className="dropdown-item" to="resortshotels">
                   RESORTS & HOTELS
                 </Link>
-                <Link className="dropdown-item" to="tours_guides">
+                <Link className="dropdown-item" to="toursguides">
                   TOURS & GUIDE
                 </Link>
-                <Link className="dropdown-item" to="car_rental">
+                <Link className="dropdown-item" to="carrentals">
                   CAR RENTALS
                 </Link>
                 <Link className="dropdown-item" to="cruise">

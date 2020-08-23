@@ -3,7 +3,7 @@ import hotel2 from "../assets/img/HotelsResortsLodges/40.png";
 import hotel3 from "../assets/img/HotelsResortsLodges/41.png";
 import hotel4 from "../assets/img/HotelsResortsLodges/42.png";
 
-export const hotelsresortslodges = [
+export default [
   {
     id: 1,
     img: hotel1,

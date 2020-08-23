@@ -7,7 +7,7 @@ import ToursGuidesFilter from "../components/Forms/ToursGuidesFilter";
 import FindTours from "../components/Forms/FindTours";
 import Tours from "../components/Tours/Tours";
 import GuidesForm from "../components/Forms/GuidesForm";
-import Guides from "../components/Guides";
+import Guides from "../components/Tours/Guides";
 
 const ToursGuide = () => {
   return (

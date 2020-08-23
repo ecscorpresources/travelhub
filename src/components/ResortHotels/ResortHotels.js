@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import Spinner from "../components/Globals/Spinner";
-import { hotelsresortslodges } from "../data/resorts_hotels_lodges";
-import HotelResortLodge from "./HotelResortLodge";
+import Spinner from "../../components/Globals/Spinner";
+import hotelsresortslodges from "../../data/resortshotels";
+import HotelResortLodge from "./ResortHotel";
 import styled from "styled-components";
 
 class HotelsResortsLodges extends Component {

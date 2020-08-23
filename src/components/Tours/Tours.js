@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { tours } from "../../data/tours_guides";
+import tours from "../../data/toursguides";
 import Spinner from "../../components/Globals/Spinner";
 import Tour from "./Tour";
 import styled from "styled-components";

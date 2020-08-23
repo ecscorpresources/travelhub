@@ -3,7 +3,7 @@ import "../styles/resorthotels.scss";
 import Pagination from "../components/Globals/Pagination/Pagination";
 import HotelsResortsLodgesForm from "../components/Forms/HotelsResortsLodgesForm";
 import HotelsResortsLodgeFilter from "../components/Forms/HotelsResortsLodgeFilter";
-import HotelsResortsLodges from "../components/HotelsResortsLodges";
+import ResortHotelsLodge from "../components/ResortHotels/ResortHotels";
 
 const ResortHotels = (props) => {
   return (
@@ -21,7 +21,7 @@ const ResortHotels = (props) => {
           <HotelsResortsLodgeFilter />
 
           <div className="col-md-8">
-            <HotelsResortsLodges />
+            <ResortHotelsLodge />
             <Pagination />
           </div>
         </div>

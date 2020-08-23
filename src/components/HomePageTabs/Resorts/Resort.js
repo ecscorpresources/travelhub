@@ -5,7 +5,7 @@ import City from "../Resorts/City";
 import Hotels from "../Hotels";
 import Rentals from "../Rentals";
 import Cruise from "../Cruise";
-import Guides from "../../Guides";
+import Guides from "../../Tours/Guides";
 
 const text1 = (
   <>

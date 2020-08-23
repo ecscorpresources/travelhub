@@ -1,8 +1,8 @@
 import React, { Component } from "react";
-import { guides } from "../data/guides";
+import { guides } from "../../data/guides";
 import styled from "styled-components";
-import Spinner from "../components/Globals/Spinner";
-import Guide from "../components/HomePageTabs/Resorts/Guide";
+import Spinner from "../Globals/Spinner";
+import Guide from "../HomePageTabs/Resorts/Guide";
 
 class Guides extends Component {
   state = {
