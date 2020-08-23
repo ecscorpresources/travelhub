@@ -1,80 +1,63 @@
-import React from "react";
+import React, { Component } from "react";
+import hotels from "../../data/resortshotels";
+import Spinner from "../../components/Globals/Spinner";
+import BookHotels from "../Forms/BookHotels";
 
-const Hotels = () => {
-  return (
-    <>
-      <div id="hotelsFirstSection">
-        <img
-          src={require("../../assets/img/HotelsResortsLodges/23.png")}
-          alt=""
-          className="paris_image img-fluid"
-        />
-        <form>
-          <div>
-            <input
-              type="text"
-              placeholder="Destination"
-              className="destination"
-            />
-          </div>
+class Hotels extends Component {
+  state = {
+    hotels: [],
+  };
 
-          <div className="checkin_checkout">
-            <input type="text" placeholder="Check In" className="checkin" />
-            <input type="text" placeholder="Check Out" className="checkout" />
-          </div>
+  componentDidMount() {
+    this.setState({ hotels });
+  }
+  render() {
+    const featuredhotels = this.state.hotels.filter(
+      (item) => item.type === "hotel"
+    );
 
-          <div className="submit_div">
-            <select name="" id="">
-              <option value="option1">option1</option>
-              <option value="option2">option2</option>
-            </select>
-            <button type="submit">BOOK NOW</button>
-          </div>
-        </form>
-        <div className="location">
-          <p>Le Bristol Paris</p>
-        </div>
-      </div>
+    const herohotel = featuredhotels.find((hotel) => hotel.hero === true);
+    const otherhotels = featuredhotels.filter((hotel) => hotel.hero === false);
 
-      <div id="hotelsSecondSection" className="container-fluid">
-        <div className="row">
-          <div className="col-md-3">
-            <img
-              src={require("../../assets/img/HotelsResortsLodges/24.png")}
-              alt=""
-              className="img-fluid"
-            />
-
-            <div>
-              <p>Zuri Zanzibal Hotel</p>
+    return (
+      <>
+        {this.state.hotels.length === 0 ? (
+          <Spinner />
+        ) : (
+          <>
+            <div id="hotelsFirstSection">
+              <img
+                src={herohotel.img}
+                alt={herohotel.name}
+                className="paris_image img-fluid"
+              />
+              <BookHotels />
+              <div className="location">
+                <p className="text-capitalize">{herohotel.name}</p>
+              </div>
             </div>
-          </div>
 
-          <div className="col-md-3">
-            <img
-              src={require("../../assets/img/HotelsResortsLodges/25.png")}
-              alt=""
-              className="img-fluid"
-            />
-            <div>
-              <p>Kaya Mawa</p>
+            <div id="hotelsSecondSection" className="container-fluid">
+              <div className="row">
+                {otherhotels.map((hotel) => (
+                  <div key={hotel.id} className="col-md-3">
+                    <img
+                      src={hotel.img}
+                      alt={hotel.name}
+                      className="img-fluid"
+                    />
+                    <div>
+                      <p className="text-capitalize">{hotel.name}</p>
+                    </div>
+                  </div>
+                ))}
+              </div>
             </div>
-          </div>
-
-          <div className="col-md-3">
-            <img
-              src={require("../../assets/img/HotelsResortsLodges/26.png")}
-              alt=""
-              className="img-fluid"
-            />
-            <div>
-              <p>Boston Harbour Hotel</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </>
-  );
-};
+          </>
+        )}
+      </>
+    );
+  }
+}
 
 export default Hotels;

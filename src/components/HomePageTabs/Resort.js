@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { MdStar } from "react-icons/md";
 
-const SingleResort = ({ resort }) => {
+const Resort = ({ resort }) => {
   return (
     <>
       <div className="col-md-3">
@@ -18,7 +18,7 @@ const SingleResort = ({ resort }) => {
             <MdStar />
             <MdStar />
           </div>
-          <Link to="monkhey" className="details">
+          <Link to={`/resort/${resort.id}`} className="details">
             VIEW DETAILS
           </Link>
         </div>
@@ -27,4 +27,4 @@ const SingleResort = ({ resort }) => {
   );
 };
 
-export default SingleResort;
+export default Resort;

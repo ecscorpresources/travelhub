@@ -1,30 +1,30 @@
 import React, { Component } from "react";
-import hotelsresortslodges from "../../data/resortshotels";
+import toursguides from "../../data/toursguides";
 import Spinner from "../../components/Globals/Spinner";
-import Resort from "./Resort";
+import City from "./City";
 // import styled from "styled-components";
 
 class Resorts extends Component {
   state = {
-    hotelsresortslodges: [],
+    toursguides: [],
   };
 
   componentDidMount() {
-    this.setState({ hotelsresortslodges });
+    this.setState({ toursguides });
   }
   render() {
-    const featuredresorts = this.state.hotelsresortslodges.filter(
+    const featuredtours = this.state.toursguides.filter(
       (resort) => resort.featured === true
     );
 
     return (
       <>
-        {this.state.hotelsresortslodges.length === 0 ? (
+        {this.state.toursguides.length === 0 ? (
           <Spinner />
         ) : (
           <>
-            {featuredresorts.map((resort) => (
-              <Resort resort={resort} key={resort.id} />
+            {featuredtours.map((tour) => (
+              <City tour={tour} key={tour.id} />
             ))}
           </>
         )}

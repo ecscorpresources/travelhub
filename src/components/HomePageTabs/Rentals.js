@@ -1,71 +1,72 @@
-import React from "react";
+import React, { Component } from "react";
+import cars from "../../data/cars";
+import Spinner from "../../components/Globals/Spinner";
+import RentCar from "../Forms/RentCar";
 
-const Rentals = () => {
-  return (
-    <>
-      <div id="rentalsFirstSection" className="container-fluid">
-        <div className="row">
-          <div className="col-md-4">
-            <img src={require("../../assets/img/carrentals/27.png")} alt="" />
-          </div>
-          <div className="col-md-4">
-            <h1>Rides</h1>
-            <p>that match your style</p>
-          </div>
-        </div>
-      </div>
-      <div id="rentalSecondSection" className="container-fluid">
-        <div className="row">
-          <div className="col-md-3">
-            <img src={require("../../assets/img/carrentals/28.png")} alt="" />
-          </div>
-          <div className="col-md-3">
-            <img src={require("../../assets/img/carrentals/29.png")} alt="" />
-          </div>
-          <div className="col-md-3">
-            <img src={require("../../assets/img/carrentals/30.png")} alt="" />
-          </div>
-        </div>
-      </div>
-      <div id="rentalThirdSection" className="container-fluid">
-        <div className="row">
-          <div className="col-md-12">
-            <form>
-              <div className="date">
-                <input type="date" placeholder="Rental Date" />
-                <input type="date" placeholder="Rental End" />
+class Rentals extends Component {
+  state = {
+    cars: [],
+  };
+
+  componentDidMount() {
+    this.setState({ cars });
+  }
+  render() {
+    const featuredcars = this.state.cars.filter((car) => car.featured === true);
+
+    const herocar = featuredcars.find((car) => car.hero === true);
+    const othercars = featuredcars.filter((car) => car.hero === false);
+
+    //loop thru the cars and return an array of the makers
+    const makers = featuredcars.map((car) => car.maker);
+
+    return (
+      <>
+        {this.state.cars.length === 0 ? (
+          <Spinner />
+        ) : (
+          <>
+            <div id="rentalsFirstSection" className="container-fluid">
+              <div className="row">
+                <div className="col-md-4">
+                  <img src={herocar.img} alt={herocar.name} />
+                </div>
+                <div className="col-md-4">
+                  <h1>Rides</h1>
+                  <p>that match your style</p>
+                </div>
               </div>
-              <div className="rent_car">
-                <select>
-                  <option default="Country">Country</option>
-                  <option value="Nigeria">Nigeria</option>
-                  <option value="Canada">Canada</option>
-                  <option value="England">England</option>
-                </select>
-                <button type="submit">RENT A CAR</button>
+            </div>
+            <div id="rentalSecondSection" className="container-fluid">
+              <div className="row">
+                {othercars.map((car) => (
+                  <div className="col-md-3">
+                    <img src={car.img} alt={car.img} />
+                  </div>
+                ))}
               </div>
-            </form>
-          </div>
-        </div>
-      </div>
-      <div id="rentalFourthSection" className="container-fluid">
-        <div className="row">
-          <div className="col-md-2">
-            <img src={require("../../assets/img/carrentals/31.png")} alt="" />
-          </div>
-          <div className="col-md-2">
-            <img src={require("../../assets/img/carrentals/32.png")} alt="" />
-          </div>
-          <div className="col-md-2">
-            <img src={require("../../assets/img/carrentals/33.png")} alt="" />
-          </div>
-          <div className="col-md-2">
-            <img src={require("../../assets/img/carrentals/34.png")} alt="" />
-          </div>
-        </div>
-      </div>
-    </>
-  );
-};
+            </div>
+            <div id="rentalThirdSection" className="container-fluid">
+              <div className="row">
+                <div className="col-md-12">
+                  <RentCar />
+                </div>
+              </div>
+            </div>
+            <div id="rentalFourthSection" className="container-fluid">
+              <div className="row">
+                {makers.map((maker, index) => (
+                  <div key={index} className="col-md-2">
+                    <img src={maker} alt="maker" />
+                  </div>
+                ))}
+              </div>
+            </div>
+          </>
+        )}
+      </>
+    );
+  }
+}
 
 export default Rentals;

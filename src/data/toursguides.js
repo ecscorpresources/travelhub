@@ -1,10 +1,29 @@
+import React from "react";
 import guide1 from "../assets/img/toursandguides/46.png";
 import guide2 from "../assets/img/toursandguides/47.png";
 import guide3 from "../assets/img/toursandguides/48.png";
 import guide4 from "../assets/img/toursandguides/49.png";
 import guide5 from "../assets/img/toursandguides/50.png";
-// import guide5 from "../assets/img/toursandguides/50.png";
-// import guide5 from "../assets/img/toursandguides/50.png";
+import guide6 from "../assets/img/toursandguides/17.png";
+import guide7 from "../assets/img/toursandguides/18.png";
+
+const text1 = (
+  <>
+    One of italy's iconic sites, Florence was the centre of Europen medieval
+    trades and finance and one of the weaalthiest city of the era. It is
+    considered by many academics the birthplace of the Renaissance, and has been
+    called "the Athens of the Middle Ages"
+  </>
+);
+
+const text2 = (
+  <>
+    Black Star Square, also known as Independence Square, is a public square in
+    Accra, Ghana,bordered by the Accra Sports Stadium and the Kwame Nkrumah
+    Memorial Park.The square often hosts the annual independence celebrations as
+    well as other national events
+  </>
+);
 
 export default [
   {
@@ -176,5 +195,61 @@ export default [
 
     price: "76,020",
     rating: 3,
+  },
+
+  {
+    id: 6,
+    img: guide6,
+    name: "florence italy tour",
+    location: "florence, italy",
+    description: text1,
+    numberofpeople: 5,
+    duration: "5 hours",
+    tours: {
+      all: false,
+      citytours: false,
+      museumtours: false,
+      naturetours: false,
+      walktours: false,
+      eatanddrinktours: false,
+      historictours: true,
+    },
+    others: {
+      groups: true,
+      disabled: true,
+      pets: true,
+    },
+
+    price: "76,020",
+    rating: 3,
+    featured: true,
+  },
+
+  {
+    id: 7,
+    img: guide7,
+    name: "accra ghana tour",
+    location: "accra, ghana",
+    description: text2,
+    numberofpeople: 5,
+    duration: "5 hours",
+    tours: {
+      all: false,
+      citytours: false,
+      museumtours: false,
+      naturetours: false,
+      walktours: false,
+      eatanddrinktours: false,
+      historictours: true,
+    },
+    others: {
+      groups: true,
+      disabled: true,
+      pets: true,
+    },
+
+    price: "76,020",
+    rating: 3,
+    featured: true,
   },
 ];

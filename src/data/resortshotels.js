@@ -9,13 +9,17 @@ import hotel8 from "../assets/img/HotelsResortsLodges/12.png";
 import hotel9 from "../assets/img/HotelsResortsLodges/13.png";
 import hotel10 from "../assets/img/HotelsResortsLodges/14.png";
 import hotel11 from "../assets/img/HotelsResortsLodges/15.png";
+import hotel12 from "../assets/img/HotelsResortsLodges/23.png";
+import hotel13 from "../assets/img/HotelsResortsLodges/24.png";
+import hotel14 from "../assets/img/HotelsResortsLodges/25.png";
+import hotel15 from "../assets/img/HotelsResortsLodges/26.png";
 
 export default [
   {
     id: 1,
     img: hotel1,
     name: "premier inn abu dhabi capital centre",
-    type: "hotel",
+    type: "resort",
     location: "abu dhabi",
     creditcard: true,
     distance: "10km from City's Center",
@@ -55,7 +59,7 @@ export default [
     id: 3,
     img: hotel3,
     name: "hotel bon vovage",
-    type: "hotel",
+    type: "resort",
     location: "victoria island, lagos",
     creditcard: false,
     timelastbooked: "Last booked for your dates 11 hours ago",
@@ -111,7 +115,7 @@ export default [
 
   {
     id: 6,
-    img: hotel6,
+    img: hotel5,
     name: "hotel madeira regency palace",
     type: "resort",
     location: "madera, portugal",
@@ -227,5 +231,129 @@ export default [
     price: 80758,
     taxes: 19648,
     featured: true,
+  },
+
+  {
+    id: 12,
+    img: hotel6,
+    name: "hotel madeira regency palace",
+    type: "resort",
+    location: "madera, portugal",
+    creditcard: true,
+    description:
+      "situated in a quiet alpine setting, Timber Haven Lodge is located in Big Bear Lake California. An outdoor hot tub, table tennis and free Wifi access are featured at this lodge...",
+    rooms: "standard room",
+    bed: "1 double bed",
+    rating: 8.7,
+    reviews: 4281,
+    timeshare: true,
+    capacity: "1 night, 1 person",
+    price: 80758,
+    taxes: 19648,
+    featured: true,
+  },
+
+  {
+    id: 13,
+    img: hotel6,
+    name: "hotel madeira regency palace",
+    type: "resort",
+    location: "madera, portugal",
+    creditcard: true,
+    description:
+      "situated in a quiet alpine setting, Timber Haven Lodge is located in Big Bear Lake California. An outdoor hot tub, table tennis and free Wifi access are featured at this lodge...",
+    rooms: "standard room",
+    bed: "1 double bed",
+    rating: 8.7,
+    reviews: 4281,
+    timeshare: true,
+    capacity: "1 night, 1 person",
+    price: 80758,
+    taxes: 19648,
+    featured: true,
+  },
+
+  {
+    id: 14,
+    img: hotel12,
+    name: "le bristol paris",
+    type: "hotel",
+    location: "france",
+    creditcard: true,
+    description:
+      "situated in a quiet alpine setting, Timber Haven Lodge is located in Big Bear Lake California. An outdoor hot tub, table tennis and free Wifi access are featured at this lodge...",
+    rooms: "standard room",
+    bed: "1 double bed",
+    rating: 8.7,
+    reviews: 4281,
+    timeshare: true,
+    capacity: "1 night, 1 person",
+    price: 80758,
+    taxes: 19648,
+    featured: false,
+    hero: true,
+  },
+
+  {
+    id: 15,
+    img: hotel13,
+    name: "zuri zanzibal hotel",
+    type: "hotel",
+    location: "zanzibal",
+    creditcard: true,
+    description:
+      "situated in a quiet alpine setting, Timber Haven Lodge is located in Big Bear Lake California. An outdoor hot tub, table tennis and free Wifi access are featured at this lodge...",
+    rooms: "standard room",
+    bed: "1 double bed",
+    rating: 8.7,
+    reviews: 4281,
+    timeshare: true,
+    capacity: "1 night, 1 person",
+    price: 80758,
+    taxes: 19648,
+    featured: false,
+    hero: false,
+  },
+
+  {
+    id: 16,
+    img: hotel14,
+    name: "kaya mawa",
+    type: "hotel",
+    location: "kenya",
+    creditcard: true,
+    description:
+      "situated in a quiet alpine setting, Timber Haven Lodge is located in Big Bear Lake California. An outdoor hot tub, table tennis and free Wifi access are featured at this lodge...",
+    rooms: "standard room",
+    bed: "1 double bed",
+    rating: 8.7,
+    reviews: 4281,
+    timeshare: true,
+    capacity: "1 night, 1 person",
+    price: 80758,
+    taxes: 19648,
+    featured: false,
+    hero: false,
+  },
+
+  {
+    id: 17,
+    img: hotel15,
+    name: "boston harbour hotel",
+    type: "hotel",
+    location: "boston",
+    creditcard: true,
+    description:
+      "situated in a quiet alpine setting, Timber Haven Lodge is located in Big Bear Lake California. An outdoor hot tub, table tennis and free Wifi access are featured at this lodge...",
+    rooms: "standard room",
+    bed: "1 double bed",
+    rating: 8.7,
+    reviews: 4281,
+    timeshare: true,
+    capacity: "1 night, 1 person",
+    price: 80758,
+    taxes: 19648,
+    featured: false,
+    hero: false,
   },
 ];

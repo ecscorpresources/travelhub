@@ -1,29 +1,12 @@
 import React from "react";
 import { Tabs, TabList, TabPanels, Tab, TabPanel } from "@chakra-ui/core";
-import City from "./City";
 import Hotels from "./Hotels";
 import Rentals from "./Rentals";
 import Cruise from "./Cruise";
 import Guides from "../Tours/Guides";
 import Resorts from "./Resorts";
-
-const text1 = (
-  <>
-    One of italy's iconic sites, Florence was the centre of Europen medieval
-    trades and finance and one of the weaalthiest city of the era. It is
-    considered by many academics the birthplace of the Renaissance, and has been
-    called "the Athens of the Middle Ages"
-  </>
-);
-
-const text2 = (
-  <>
-    Black Star Square, also known as Independence Square, is a public square in
-    Accra, Ghana,bordered by the Accra Sports Stadium and the Kwame Nkrumah
-    Memorial Park.The square often hosts the annual independence celebrations as
-    well as other national events
-  </>
-);
+import Cities from "./Cities";
+import TourSearch from "../Forms/TourSearch";
 
 const HomeTabs = () => {
   return (
@@ -48,45 +31,25 @@ const HomeTabs = () => {
                   <Resorts />
                 </div>
               </TabPanel>
+
               <TabPanel>
-                <form className="tours_form">
-                  <div className="row form_row">
-                    <div className="col-md-4">
-                      <input type="text" placeholder="Destination" />
-                    </div>
-                    <div className="col-md-2">
-                      <input type="text" placeholder="From" />
-                    </div>
-                    <div className="col-md-2">
-                      <input type="text" placeholder="To" />
-                    </div>
-                    <div className="col-md-2">
-                      <button type="submit">FIND A TOUR GUIDE</button>
-                    </div>
-                  </div>
-                </form>
+                <TourSearch />
                 <div className="row destinations">
-                  <City
-                    image={require("../../assets/img/HotelsResortsLodges/17.png")}
-                    text={text1}
-                    city="Visit Florence, Italy"
-                  />
-                  <City
-                    image={require("../../assets/img/HotelsResortsLodges/18.png")}
-                    text={text2}
-                    city="Visit Accra, Ghana"
-                  />
+                  <Cities />
                 </div>
                 <div className="row guides">
                   <Guides />
                 </div>
               </TabPanel>
+
               <TabPanel>
                 <Hotels />
               </TabPanel>
+
               <TabPanel>
                 <Rentals />
               </TabPanel>
+
               <TabPanel>
                 <Cruise />
               </TabPanel>
