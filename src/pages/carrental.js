@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import "../styles/carrental.scss";
 import Pagination from "../components/Globals/Pagination/Pagination";
 import CarRentalFilter from "../components/Forms/CarRentalFilter";
-import Cars from "../components/Cars";
+import Cars from "../components/Cars/Cars";
 
 const CarRental = () => {
   return (

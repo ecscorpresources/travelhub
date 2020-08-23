@@ -7,12 +7,10 @@ import Navbar from "./components/Globals/Navbar";
 import Footer from "./components/Globals/Footer";
 import Spinner from "./components/Globals/Spinner";
 const Homepage = lazy(() => import("./pages/homepage"));
-const Resort_Hotels_Lodges = React.lazy(() =>
-  import("./pages/resorts_hotels_lodge")
-);
-const ToursGuide = lazy(() => import("./pages/ToursGuide/ToursGuide"));
-const CarRental = lazy(() => import("./pages/carrentalpage"));
-const MainCruise = lazy(() => import("./pages/cruisepage"));
+const ResortsHotels = React.lazy(() => import("./pages/resortshotels"));
+const ToursGuide = lazy(() => import("./pages/toursguides"));
+const CarRental = lazy(() => import("./pages/carrental"));
+const MainCruise = lazy(() => import("./pages/cruise"));
 
 function App() {
   return (
@@ -23,11 +21,7 @@ function App() {
             <Navbar />
             <Switch>
               <Route exact path="/" component={Homepage} />
-              <Route
-                exact
-                path="/resorts_hotels"
-                component={Resort_Hotels_Lodges}
-              />
+              <Route exact path="/resorts_hotels" component={ResortsHotels} />
               <Route exact path="/tours_guides" component={ToursGuide} />
               <Route exact path="/car_rental" component={CarRental} />
               <Route exact path="/cruise" component={MainCruise} />

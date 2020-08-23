@@ -1,11 +1,11 @@
 import React from "react";
 // import PropTypes from "prop-types";
-import carimg1 from "../assets/img/carrentals/90.png";
-import carimg2 from "../assets/img/carrentals/91.png";
-import carimg3 from "../assets/img/carrentals/92.png";
-import carimg4 from "../assets/img/carrentals/93.png";
-import carimg5 from "../assets/img/carrentals/94.png";
-import { ReservationLink } from "../components/Globals/StyledComponents";
+import carimg1 from "../../assets/img/carrentals/90.png";
+import carimg2 from "../../assets/img/carrentals/91.png";
+import carimg3 from "../../assets/img/carrentals/92.png";
+import carimg4 from "../../assets/img/carrentals/93.png";
+import carimg5 from "../../assets/img/carrentals/94.png";
+import { ReservationLink } from "../../components/Globals/StyledComponents";
 import styled from "styled-components";
 
 const Car = ({ car }) => {

@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import { tours } from "../data/tours_guides";
-import Spinner from "../components/Globals/Spinner";
+import { tours } from "../../data/tours_guides";
+import Spinner from "../../components/Globals/Spinner";
 import Tour from "./Tour";
 import styled from "styled-components";
 

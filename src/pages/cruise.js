@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import "../styles/maincruise.scss";
 import Pagination from "../components/Globals/Pagination/Pagination";
 import CruiseFilter from "../components/Forms/CruiseFilter";
-import Cruises from "../components/Cruises";
+import Cruises from "../components/Cruise/Cruises";
 import SearchCruise from "../components/Forms/SearchCruise";
 
 const Cruise = () => {

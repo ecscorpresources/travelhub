@@ -1,8 +1,8 @@
 import React, { Component } from "react";
-import Spinner from "../components/Globals/Spinner";
-import cruise from "../data/cruise";
+import Spinner from "../../components/Globals/Spinner";
+import cruise from "../../data/cruise";
 import styled from "styled-components";
-import Cruise from "../components/Cruise";
+import Cruise from "../Cruise/Cruise";
 
 class Cruises extends Component {
   state = {

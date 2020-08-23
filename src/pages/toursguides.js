@@ -1,13 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "./ToursGuide.css";
-import Pagination from "../../components/Globals/Pagination/Pagination";
+import "../styles/toursguide.scss";
+import Pagination from "../components/Globals/Pagination/Pagination";
 import { TiArrowSortedDown } from "react-icons/ti";
-import ToursGuidesFilter from "../../components/Forms/ToursGuidesFilter";
-import FindTours from "../../components/Forms/FindTours";
-import Tours from "../../components/Tours";
-import GuidesForm from "../../components/Forms/GuidesForm";
-import Guides from "../../components/Guides";
+import ToursGuidesFilter from "../components/Forms/ToursGuidesFilter";
+import FindTours from "../components/Forms/FindTours";
+import Tours from "../components/Tours/Tours";
+import GuidesForm from "../components/Forms/GuidesForm";
+import Guides from "../components/Guides";
 
 const ToursGuide = () => {
   return (
@@ -42,7 +42,6 @@ const ToursGuide = () => {
           <ToursGuidesFilter />
           <div className="col-md-8">
             <Tours />
-
             <Pagination />
           </div>
         </div>

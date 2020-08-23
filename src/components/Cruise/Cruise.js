@@ -1,7 +1,7 @@
 import React from "react";
 // import PropTypes from "prop-types";
-import cruiseimg from "../assets/img/60.png";
-import { ReservationLink } from "../components/Globals/StyledComponents";
+import cruiseimg from "../../assets/img/60.png";
+import { ReservationLink } from "../../components/Globals/StyledComponents";
 import styled from "styled-components";
 
 const Cruise = ({ cruise }) => {

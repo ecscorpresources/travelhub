@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import Spinner from "../components/Globals/Spinner";
-import cars from "../data/cars";
+import Spinner from "../../components/Globals/Spinner";
+import cars from "../../data/cars";
 import styled from "styled-components";
 import Car from "./Car";
 

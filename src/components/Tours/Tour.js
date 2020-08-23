@@ -1,19 +1,19 @@
 import React from "react";
 // import PropTypes from "prop-types";
 import styled from "styled-components";
-import { ReservationLink } from "../components/Globals/StyledComponents";
-import locationimg from "../assets/img/toursandguides/52.png";
-// import tourimg1 from "../assets/img/toursandguides/70.png";
-// import tourimg2 from "../assets/img/toursandguides/71.png";
-// import tourimg3 from "../assets/img/toursandguides/72.png";
-import tourimg4 from "../assets/img/toursandguides/73.png";
-import tourimg5 from "../assets/img/toursandguides/74.png";
-import tourimg6 from "../assets/img/toursandguides/75.png";
-import tourimg7 from "../assets/img/toursandguides/76.png";
-import groupallowed from "../assets/img/toursandguides/78.png";
-import disabledallowed from "../assets/img/toursandguides/77.png";
-import petsallowed from "../assets/img/toursandguides/79.png";
-import tourrating from "../assets/img/toursandguides/51.png";
+import { ReservationLink } from "../../components/Globals/StyledComponents";
+import locationimg from "../../assets/img/toursandguides/52.png";
+// import tourimg1 from "../../assets/img/toursandguides/70.png";
+// import tourimg2 from "../../assets/img/toursandguides/71.png";
+// import tourimg3 from "../../assets/img/toursandguides/72.png";
+import tourimg4 from "../../assets/img/toursandguides/73.png";
+import tourimg5 from "../../assets/img/toursandguides/74.png";
+import tourimg6 from "../../assets/img/toursandguides/75.png";
+import tourimg7 from "../../assets/img/toursandguides/76.png";
+import groupallowed from "../../assets/img/toursandguides/78.png";
+import disabledallowed from "../../assets/img/toursandguides/77.png";
+import petsallowed from "../../assets/img/toursandguides/79.png";
+import tourrating from "../../assets/img/toursandguides/51.png";
 
 const Tour = ({ tour }) => {
   const {
