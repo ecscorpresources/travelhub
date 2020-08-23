@@ -78,7 +78,9 @@ const Car = ({ car }) => {
             <p className="mb-4">per Day</p>
             <h3 className="priceindollar mb-2">USD {priceindollar}</h3>
             <h3 className="priceinnaira mb-3">NGN {priceinnaira}</h3>
-            <ReservationLink to="/car_rental">Reserve Vehicle</ReservationLink>
+            <ReservationLink style={{ fontSize: "1.4rem" }} to="/car_rental">
+              Reserve Vehicle
+            </ReservationLink>
           </div>
         </div>
       </div>
@@ -120,7 +122,8 @@ const Wrapper = styled.article`
   }
 
   .priceindollar {
-    font-size: 1.9rem;
+    font-size: 1.6rem;
+    color: #f58634;
   }
 
   .priceinnaira {

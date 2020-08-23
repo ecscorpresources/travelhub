@@ -30,5 +30,9 @@ class Cruises extends Component {
   }
 }
 
-const CruiseWrapper = styled.section``;
+const CruiseWrapper = styled.section`
+  .cruise:not(:last-child) {
+    margin-bottom: 1rem;
+  }
+`;
 export default Cruises;

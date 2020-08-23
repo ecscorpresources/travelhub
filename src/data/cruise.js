@@ -15,7 +15,7 @@ export default [
     img: cruise1,
     company: company1,
     companyname: "amawaterways, amadara",
-    name: "7- Night asia adn asia pacific cruise from ho chi minh city",
+    name: "7- Night asia and asia pacific cruise from ho chi minh city",
     embark: "ho chi minh",
     disembark: "kampong, cham",
     priceindollar: "2,100",
