@@ -1,0 +1,983 @@
+<<<<<<< HEAD:src/components/app/App.css
+@font-face {
+  font-family: 'font1';
+  src: url(../../assets/fonts/segoeuil.ttf) format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'segoebold';
+  src: url(../../assets/fonts/segoe-ui-bold.ttf) format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'avertaDemo';
+  src: url('../../assets/fonts/avertaDemo.ttf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'universalbold';
+  src: url(../../assets/fonts/UniversalisADFStd-Bold.otf) format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'universalregular';
+  src: url(../../assets/fonts/UniversalisADFStd-Regular.otf) format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'codecBold';
+  src: url(../../assets/fonts/Codec-Cold-Bold-trial.ttf) format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NexaBold';
+  src: url(../../assets/fonts/NexaBold.otf) format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NexaLight';
+  src: url(../../assets/fonts/NexaLight.otf) format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'captura';
+  src: url(../../assets/fonts/Captura-BlackDemo.otf) format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+/* line to remove default firefox select styles */
+@supports (-moz-appearance: none) {
+  select {
+    -moz-appearance: none !important;
+    background: transparent
+      url('data:image/gif;base64,R0lGODlhBgAGAKEDAFVVVX9/f9TU1CgmNyH5BAEKAAMALAAAAAAGAAYAAAIODA4hCDKWxlhNvmCnGwUAOw==')
+      right center no-repeat !important;
+    background-position: calc(100% - 5px) center !important;
+  }
+}
+=======
+@import "./styles/main.scss";
+>>>>>>> c6412f448bd29c6411086c7b323e18026b09472d:src/App.scss
+
+ul {
+  list-style: none;
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+}
+
+.homeNavLinks {
+  margin-left: 70px;
+}
+
+.homeLoginSignup {
+  margin-left: auto;
+}
+
+a.links {
+  color: #fff !important;
+  padding-right: 45px !important;
+  font-size: 17px;
+}
+
+nav {
+  background-color: transparent;
+}
+
+.resortnavbackground {
+  background-color: #0089cc;
+}
+
+.spinner {
+  position: absolute;
+  top: 32%;
+  left: 38%;
+}
+
+.navbar-dark .navbar-nav .links {
+  padding-left: 10px !important;
+  color: #fff !important;
+  font-size: 17px !important;
+}
+
+a.loginsignup {
+  color: #000 !important;
+  background: #275273 !important;
+  color: #fff !important;
+  padding: 8px 25px !important;
+  border-radius: 4px !important;
+  margin-right: 10px !important;
+  font-size: 13px !important;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-decoration: none !important;
+}
+
+#homeFirstSection {
+<<<<<<< HEAD:src/components/app/App.css
+  background: url('../../assets/img/1th.png') no-repeat;
+=======
+  background: url("./assets/img/home/1th.png") no-repeat;
+>>>>>>> c6412f448bd29c6411086c7b323e18026b09472d:src/App.scss
+  background-position: center;
+  background-size: cover;
+  background-color: lightblue;
+  min-height: 856px;
+  margin-top: -120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#homeFirstSection h1 {
+  color: #fff;
+  font-size: 5em;
+  font-family: NexaBold;
+  text-align: center;
+}
+
+#homeFirstSection > .row:first-child {
+  padding-top: 223px;
+}
+
+#homeFirstSection .row.time_share {
+  width: 100%;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+#homeFirstSection .row.time_share .col-md-3 {
+  text-align: center;
+  margin: 0 -53px;
+}
+
+#homeFirstSection .row.row.time_share .col-md-3 a {
+  text-decoration: none;
+  font-size: 1.4rem;
+  display: inline-block;
+  background: #fff;
+  padding: 8px 35px;
+  border: 1px solid #275273;
+}
+
+/* palm section */
+#homepalmSection {
+<<<<<<< HEAD:src/components/app/App.css
+  background: url('../../assets/img/7.png') no-repeat;
+=======
+  background: url("./assets/img/home/7.png") no-repeat;
+>>>>>>> c6412f448bd29c6411086c7b323e18026b09472d:src/App.scss
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  height: 237px;
+}
+
+#homepalmSection p {
+  font-size: 1.8rem;
+  padding-top: 1.8rem;
+  text-align: center;
+}
+#homepalmSection sup {
+  padding: 5px;
+}
+
+/* palm section end */
+
+/* resort section */
+#homeresortSection {
+  background-color: #fff;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+#homeresortSection .col-md-3 img {
+  width: 100%;
+}
+
+#homeresortSection button.tab {
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  outline: none;
+  font-size: 1rem;
+  font-family: NexaLight;
+  transition: all 2s ease-in-out;
+}
+
+#homeresortSection button.tab:active,
+#homeresortSection button.tab:focus {
+  color: #275273;
+  font-size: 1rem;
+  font-family: NexaBold;
+}
+
+#homeresortSection .row.tabs_row {
+  justify-content: center;
+  padding-bottom: 40px;
+}
+
+/* resort section end */
+#homeresortSection > .row:first-child .col-md-12 {
+  display: flex;
+  justify-content: center;
+}
+
+#homeresortSection ul {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  list-style: none;
+  font-weight: bold;
+}
+
+#homeresortSection .row.resorts {
+  justify-content: center;
+  padding-bottom: 40px;
+}
+
+#homeresortSection .row.resorts p {
+  margin-bottom: 0;
+}
+
+#homeresortSection .row.resorts .col-md-3 div.rating {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#homeresortSection .row.resorts .col-md-3 a.details {
+  border: 2px solid #000;
+  padding: 3px 5px;
+  font-size: 12px;
+  margin-bottom: 0;
+  color: #000;
+  text-decoration: none;
+}
+
+#homeresortSection .row.flight_booking h6 {
+  text-indent: 74px;
+  font-size: 35px;
+  font-weight: 200;
+}
+
+#homeresortSection div.parent {
+  padding-left: 30px;
+  padding-top: 30px;
+  background: #f1f1f2;
+  padding-bottom: 30px;
+  margin-left: 70px;
+  margin-right: 70px;
+  padding-right: 30px;
+}
+
+#homeresortSection div.parent .col-md-12 {
+  background: #e6e7e8;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 40px;
+}
+#homeresortSection div.row-1 {
+  margin-bottom: 6px;
+  /* justify-content: center; */
+  margin-left: 3rem;
+  align-items: center;
+}
+
+#homeresortSection div.row-2 {
+  /* justify-content: center; */
+  margin-left: 3rem;
+}
+
+#homeresortSection div.row-1 select {
+  background-color: #275273 !important;
+  color: #fff;
+  padding: 1rem;
+  width: 10rem;
+  border: none;
+  appearance: none;
+  background: url('../../assets/img/130.png');
+  background-repeat: no-repeat;
+  border-radius: 4px;
+  background-position: 94% center;
+}
+
+#homeresortSection div.row-2 select:focus {
+  outline: none;
+}
+
+#homeresortSection div.row-2 select {
+  background-color: #fff !important;
+  border-radius: 0;
+  padding: 1rem;
+  width: 10rem;
+  /* font-size: 1.2em; */
+  border: none;
+  appearance: none;
+  background: url('../../assets/img/131.png');
+  background-repeat: no-repeat;
+  border-radius: 4px;
+  background-position: 94% center;
+}
+
+#homeresortSection div.row-2 select:focus {
+  outline: none;
+}
+
+.select-div {
+  position: relative;
+}
+
+/* select::after {
+  position: absolute;
+  content: "";
+  top: 14px;
+  right: 10px;
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+  border-color: #fff transparent transparent transparent;
+} */
+
+#homeresortSection div.row-2 button {
+  background-color: #f58634;
+  color: #fff;
+  padding: 1rem;
+  width: 10.5rem;
+  border: none;
+}
+#homeresortSection div.row-2 button:focus {
+  outline: none;
+}
+#homeresortSection input {
+  border-radius: 0px !important;
+  padding: 1rem;
+  width: 10rem;
+  /* font-size: 1.2em; */
+  border: none;
+}
+
+#homeresortSection input:focus {
+  outline: none;
+}
+
+/* resort section end */
+#homeSecondSection div.row-1 {
+  padding: 50px 127px;
+}
+
+#homeSecondSection div.row-2 {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+
+#homeSecondSection .col-lg-3 img {
+  width: 100%;
+}
+
+#homeSecondSection .col-lg-3 .txt {
+  background: #efeff0;
+  color: #000;
+  padding: 10px 0px 10px 24px;
+  position: relative;
+  top: -1px;
+  text-align: left;
+}
+
+#homeSecondSection .col-lg-3 .image {
+  position: relative;
+}
+
+#homeSecondSection .col-lg-3 .image:after {
+  content: '\A';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.6);
+  opacity: 1;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+}
+
+#homeSecondSection .col-lg-3 .image:hover:after {
+  opacity: 0;
+}
+
+#homeSecondSection .col-lg-3 .txt h3 {
+  font-weight: lighter;
+}
+
+#homeSecondSection .col-lg-3 .txt h5 {
+  font-size: 1.1em;
+}
+
+#homeSecondSection h1 {
+  display: inline-block;
+  padding-right: 30px;
+  font-size: 2.5rem;
+  font-family: font1;
+}
+
+#homeThirdSection h1 {
+  word-spacing: 20px;
+}
+#homeThirdSection hr {
+  border-top: 3px solid #000;
+  margin-right: 200px;
+}
+
+#homeThirdSection div.center-1 {
+  text-align: center;
+  padding-top: 51px;
+  padding-bottom: 51px;
+}
+
+#homeThirdSection div.center-2 {
+  text-align: center;
+  padding-top: 30px;
+}
+
+#homeThirdSection div.center-2 img {
+  margin-left: 90px;
+}
+
+#homeThirdSection div.parent {
+  margin-right: 0;
+  margin-left: 0;
+  padding: 50px 50px;
+}
+#homeThirdSection h2 {
+  font-family: captura;
+  font-size: 25px;
+}
+#homeThirdSection h1 {
+  word-spacing: 0 !important;
+  font-size: 50px;
+  font-family: font1;
+}
+
+#homeThirdSection p {
+  font-size: 20px;
+}
+
+#homeThirdSection div.relative img {
+  position: absolute;
+  right: 100px;
+  bottom: 73px;
+}
+
+#homeThirdSection .row.parent .col-md-4:nth-child(1) {
+  padding-top: 110px;
+}
+
+/* #homeThirdSection .row.parent .col-md-4:nth-child(2) {
+  padding-top: 0px;
+} */
+
+#homeresortSection form div.form_row {
+  justify-content: center;
+}
+
+#homeresortSection form.tours_form input {
+  width: 100%;
+  padding: 10px 10px;
+  border: 2px solid #ddd;
+}
+
+#homeresortSection form.tours_form button {
+  width: 100%;
+  padding: 12px 10px;
+  border: none;
+  background-color: #275273;
+  color: #fff;
+}
+
+#homeresortSection .row.destinations {
+  justify-content: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#homeresortSection .row.destinations img {
+  width: 100%;
+}
+
+#homeresortSection .row.destinations .col-md-5 {
+  position: relative;
+}
+
+#homeresortSection .row.destinations .col-md-5 a {
+  position: absolute;
+  left: 15px;
+  top: 0;
+  color: #000;
+  background-color: rgba(255, 255, 255, 0.4);
+  padding: 16px 30px;
+  font-family: NexaLight;
+}
+
+#homeresortSection .row.destinations .col-md-5 p {
+  text-align: justify;
+  padding-top: 15px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#homeresortSection .row.guides .col-md-3 img {
+  width: 100%;
+  height: auto;
+  min-width: 200px;
+  min-height: 220px;
+}
+
+#homeresortSection .row.guides {
+  padding: 10px 113px;
+}
+
+#homeresortSection .row.guides .col-md-3 div:nth-child(2) {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  position: relative;
+  top: -102px;
+  background: #fff;
+  align-items: center;
+  padding: 2px;
+}
+
+#homeresortSection .row.guides p {
+  margin-bottom: 0;
+}
+
+#homeresortSection .row.guides .col-md-3 p.name {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+#homeresortSection .row.guides .col-md-3 div:nth-child(3) p {
+  font-size: 0.7rem;
+  /* font-family: NexaLight; */
+}
+
+#homeresortSection .row.guides .col-md-3 div:nth-child(3) {
+  position: relative;
+  top: -102px;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 15px 12px;
+  text-align: center;
+}
+
+#hotelsFirstSection input.destination {
+  padding: 10px 249px 10px 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  width: 100%;
+}
+
+#hotelsFirstSection div.checkin_checkout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+}
+
+#hotelsFirstSection input.checkin {
+  padding: 10px 0px 10px 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+}
+
+#hotelsFirstSection input.checkout {
+  padding: 10px 0px 10px 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+}
+
+#hotelsFirstSection div.submit_div {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-gap: 10px;
+}
+
+#hotelsFirstSection button {
+  padding: 10px 0px 10px 10px;
+  background: #0a5c7d;
+  color: #fff;
+  border: none;
+  text-align: center;
+}
+
+#hotelsFirstSection select {
+  padding: 10px 0px 10px 10px;
+  border: 1px solid #ddd;
+  background: #fff !important;
+  color: gray;
+}
+
+#hotelsFirstSection {
+  margin-right: 160px;
+  margin-left: 160px;
+  position: relative;
+}
+
+#hotelsFirstSection div.banner_div {
+  margin-right: 200px;
+  margin-left: 200px;
+  position: relative;
+}
+
+#hotelsFirstSection div.banner_div {
+  margin-right: 200px;
+  margin-left: 200px;
+  position: relative;
+}
+
+#hotelsFirstSection form {
+  position: absolute;
+  top: 20px;
+  left: 40px;
+  background-color: #ddd;
+  padding: 10px 10px;
+}
+
+#hotelsFirstSection img.paris_image {
+  width: 100%;
+}
+
+#hotelsFirstSection div.location {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background: rgba(255, 255, 255, 0.4);
+  padding: 10px 30px;
+}
+
+#hotelsFirstSection div.location p {
+  font-size: 30px;
+  font-family: NexaLight;
+  margin-bottom: 0;
+  color: #275273;
+}
+
+#hotelsSecondSection > .row {
+  justify-content: center;
+  padding-top: 20px;
+}
+
+#hotelsSecondSection .col-md-3 {
+  position: relative;
+}
+
+#hotelsSecondSection .col-md-3 div {
+  position: absolute;
+  right: 15px;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.4);
+  padding: 10px 10px;
+  color: #275273;
+  font-size: 18px;
+}
+
+#hotelsSecondSection .col-md-3 div p {
+  margin-bottom: 0;
+}
+
+#hotelsSecondSection .col-md-3 img {
+  width: 100%;
+}
+
+#hotelSecondSection > .row {
+  justify-content: center;
+  padding-top: 20px;
+}
+
+/* #hotelsFirstSection .row {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  align-items: flex-end;
+} */
+
+#rentalsFirstSection > .row {
+  justify-content: center;
+  margin-bottom: 5rem;
+}
+
+#rentalsFirstSection > .row .col-md-3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 70px;
+}
+
+#rentalsFirstSection > .row .col-md-3:first-child img {
+  width: 100%;
+}
+
+#rentalsFirstSection > .row .col-md-4 h1 {
+  font-size: 50px;
+  margin-top: 1rem;
+  margin-bottom: 0 !important;
+}
+
+#rentalsFirstSection > .row .col-md-4 p {
+  font-size: 23px;
+}
+
+#rentalSecondSection > .row {
+  justify-content: center;
+  padding: 0 3rem;
+}
+
+#rentalSecondSection .col-md-2 img {
+  width: 100%;
+}
+#rentalSecondSection .col-md-2:not(:first-child) {
+  margin-left: 4rem;
+}
+
+#rentalThirdSection > .row {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+#rentalThirdSection > .row .col-md-12 {
+  display: flex;
+  justify-content: center;
+}
+
+#rentalThirdSection div.date {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+}
+
+#rentalThirdSection div.rent_car {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+}
+
+#rentalThirdSection form div:first-child input,
+#rentalThirdSection form button[type='submit'] {
+  padding: 10px 90px 10px 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  color: grey;
+  width: 100%;
+}
+
+#rentalThirdSection form div:first-child input {
+<<<<<<< HEAD:src/components/app/App.css
+  background: url('../../assets/img/calendar.png');
+=======
+  background: url("./assets/img/home/calendar.png");
+>>>>>>> c6412f448bd29c6411086c7b323e18026b09472d:src/App.scss
+  background-repeat: no-repeat;
+  background-position-x: 95%;
+  background-position-y: 50%;
+}
+
+.react-datepicker__tab-loop {
+  position: absolute;
+  left: 0;
+}
+
+#rentalThirdSection form button[type='submit'] {
+  padding: 10px 66px 10px 67px;
+  border: 1px solid #ddd;
+  color: #fff;
+  background-color: #0a5c7d;
+  color: grey;
+}
+
+#rentalThirdSection form select {
+  padding: 10px 150px 10px 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  color: grey;
+}
+
+#rentalFourthSection > .row {
+  justify-content: center;
+}
+
+#cruiseFirstSection {
+<<<<<<< HEAD:src/components/app/App.css
+  background: url('../../assets/img/35.png') no-repeat;
+=======
+  background: url("./assets/img/cruise/35.png") no-repeat;
+>>>>>>> c6412f448bd29c6411086c7b323e18026b09472d:src/App.scss
+  /* background-size: cover; */
+  background-position: center;
+  height: 772px;
+  margin-bottom: 70px;
+}
+
+#cruiseFirstSection > .row:first-child {
+  padding-top: 50px;
+}
+
+#cruiseFirstSection > .row .col-md-12.inputs {
+  display: flex;
+  justify-content: center;
+}
+
+#cruiseFirstSection select.sail_to,
+#cruiseFirstSection select.sail_from {
+  padding: 7px 100px 7px 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border: 1px solid #ddd;
+  background-color: #fff !important;
+  color: grey;
+}
+
+#cruiseFirstSection input {
+  padding: 7px 15px 7px 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border: 1px solid #ddd;
+  color: grey;
+}
+
+#cruiseFirstSection select.departure {
+  padding: 7px 65px 7px 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border: 1px solid #ddd;
+  background-color: #fff !important;
+  color: grey;
+}
+
+#cruiseFirstSection button {
+  padding: 10px 16px 10px 16px;
+  color: #fff;
+  background-color: #0a5c7d;
+  border: none;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#cruiseFirstSection > .row:nth-child(2) {
+  padding-top: 378px;
+  justify-content: center;
+}
+
+#cruiseFirstSection ul li a {
+  color: #000;
+  background-color: #fff;
+  padding: 10px 10px;
+  text-decoration: none;
+}
+
+#cruiseFirstSection > .row .col-md-4 {
+  border: 2px solid #fff;
+}
+
+#cruiseFirstSection > .row .col-md-4:first-child h1 {
+  color: #fff;
+}
+
+#cruiseFirstSection > .row .col-md-4:first-child p {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 100;
+}
+
+#cruiseFirstSection > .row .col-md-4:first-child span {
+  color: #fff;
+}
+
+#cruiseFirstSection ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  color: #fff;
+}
+
+#cruiseFirstSection > .row .col-md-4:last-child h1 {
+  color: #fff;
+  text-align: center;
+}
+
+#cruiseFirstSection > .row .col-md-4:last-child p {
+  color: #fff;
+  text-align-last: center;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#cruiseFirstSection > .row .col-md-4:last-child ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  align-items: flex-end;
+  color: #fff;
+  margin-top: 30px;
+}
+
+#cruiseFirstSection > .row .col-md-4:first-child {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#cruiseFirstSection > .row .col-md-4:last-child {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#cruiseFirstSection .row.finance {
+  margin-left: 193px;
+  margin-right: 194px;
+  padding-top: 18px;
+}
+
+#cruiseFirstSection .col-md-12.finance {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #667280;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+#cruiseFirstSection .col-md-12.finance h1 {
+  font-size: 23px;
+  color: #fff;
+  margin-bottom: 0;
+}
+
+#cruiseFirstSection .col-md-12.finance a {
+  background-color: #5ca47a;
+  color: #fff;
+  text-decoration: none;
+  padding: 7px 22px;
+  font-size: 14px;
+}
