@@ -1,6 +1,10 @@
-import React from "react";
-import { Link } from "react-router-dom";
-const HotelReservation = props => {
+import React from 'react';
+import { Link } from 'react-router-dom';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+
+import placeholder from '../../../assets/img/ph10.png';
+
+const HotelReservation = (props) => {
   const {
     img,
     hotel_name,
@@ -10,13 +14,18 @@ const HotelReservation = props => {
     bed_number,
     price,
     taxes,
-    rating
+    rating,
   } = props;
   return (
     <>
       <div className="row individual_row">
         <div className="col-md-3">
-          <img src={img} alt="" />
+          <LazyLoadImage
+            alt="guide png"
+            src={img}
+            placeholderSrc={placeholder}
+            className="img-fluid "
+          />
           <Link to="monhkey">TIMESHARE AVAILABLE</Link>
         </div>
         <div className="col-md-9">

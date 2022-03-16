@@ -1,12 +1,21 @@
-import React from "react";
+import React from 'react';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+
+import bg from '../../../../../assets/img/23.png';
+import bg2 from '../../../../../assets/img/24.png';
+import bg3 from '../../../../../assets/img/25.png';
+import bg4 from '../../../../../assets/img/26.png';
+import placeholder from '../../../../../assets/img/ph3.png';
+import placeholder2 from '../../../../../assets/img/ph4.png';
 
 const Hotels = () => {
   return (
     <>
       <div id="hotelsFirstSection">
-        <img
-          src={require("../../../../../assets/img/23.png")}
-          alt=""
+        <LazyLoadImage
+          alt="paris png"
+          src={bg}
+          placeholderSrc={placeholder}
           className="paris_image img-fluid"
         />
         <form>
@@ -39,21 +48,22 @@ const Hotels = () => {
       <div id="hotelsSecondSection" className="container-fluid">
         <div className="row">
           <div className="col-md-3">
-            <img
-              src={require("../../../../../assets/img/24.png")}
-              alt=""
+            <LazyLoadImage
+              alt="paris png"
+              src={bg2}
+              placeholderSrc={placeholder2}
               className="img-fluid"
             />
-
             <div>
               <p>Zuri Zanzibal Hotel</p>
             </div>
           </div>
 
           <div className="col-md-3">
-            <img
-              src={require("../../../../../assets/img/25.png")}
-              alt=""
+            <LazyLoadImage
+              alt="paris png"
+              src={bg3}
+              placeholderSrc={placeholder2}
               className="img-fluid"
             />
             <div>
@@ -62,9 +72,10 @@ const Hotels = () => {
           </div>
 
           <div className="col-md-3">
-            <img
-              src={require("../../../../../assets/img/26.png")}
-              alt=""
+            <LazyLoadImage
+              alt="paris png"
+              src={bg4}
+              placeholderSrc={placeholder2}
               className="img-fluid"
             />
             <div>

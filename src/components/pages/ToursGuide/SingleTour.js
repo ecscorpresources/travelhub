@@ -1,6 +1,10 @@
-import React from "react";
-import { Link } from "react-router-dom";
-const SingleTour = props => {
+import React from 'react';
+import { Link } from 'react-router-dom';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+
+import placeholder from '../../../assets/img/ph10.png';
+
+const SingleTour = (props) => {
   const {
     img,
     tour_name,
@@ -10,13 +14,18 @@ const SingleTour = props => {
     bed_number,
     price,
     taxes,
-    rating
+    rating,
   } = props;
   return (
     <>
       <div className="row individual_row">
         <div className="col-md-3">
-          <img src={img} alt="" />
+          <LazyLoadImage
+            alt="tour png"
+            src={img}
+            placeholderSrc={placeholder}
+            className="img-fluid "
+          />
         </div>
         <div className="col-md-9">
           <div className="row">
@@ -26,7 +35,7 @@ const SingleTour = props => {
                 <ul>
                   <li>
                     <Link to="monkhey">
-                      <img src={require("../../../assets/img/52.png")} alt="" />
+                      <img src={require('../../../assets/img/52.png')} alt="" />
                     </Link>
                   </li>
                   <li>

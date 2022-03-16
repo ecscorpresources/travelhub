@@ -9,19 +9,17 @@ import Cruise from "../Cruise/Cruise";
 
 const text1 = (
   <>
-    One of italy's iconic sites, Florence was the centre of Europen medieval
-    trades and finance and one of the weaalthiest city of the era. It is
-    considered by many academics the birthplace of the Renaissance, and has been
-    called "the Athens of the Middle Ages"
+    The city of Aswan, on the banks of the River Nile, was once home to the
+    granite quarries that supplied stone for the Obelisks of ancient Egypt. One
+    such obelisk remains still firmly attached to the bedrock.
   </>
 );
 
 const text2 = (
   <>
-    Black Star Square, also known as Independence Square, is a public square in
-    Accra, Ghana,bordered by the Accra Sports Stadium and the Kwame Nkrumah
-    Memorial Park.The square often hosts the annual independence celebrations as
-    well as other national events
+    Whenever you are close to an ocean, fishing is one of the main forms of
+    occupation that exist among people. Just like that Elmina in Ghana is a
+    fishing town which has the historical St. George’s Castle.
   </>
 );
 
@@ -100,16 +98,16 @@ const Resort = () => {
               <TabPanel>
                 <form className="tours_form">
                   <div className="row form_row">
-                    <div className="col-md-4">
+                    <div className="col-md-4 p-1">
                       <input type="text" placeholder="Destination" />
                     </div>
-                    <div className="col-md-2">
+                    <div className="col-md-2 p-1">
                       <input type="text" placeholder="From" />
                     </div>
-                    <div className="col-md-2">
+                    <div className="col-md-2 p-1">
                       <input type="text" placeholder="To" />
                     </div>
-                    <div className="col-md-2">
+                    <div className="col-md-2 p-1">
                       <button type="submit">FIND A TOUR GUIDE</button>
                     </div>
                   </div>
@@ -118,12 +116,12 @@ const Resort = () => {
                   <City
                     image={require("../../../../../assets/img/17.png")}
                     text={text1}
-                    city="Visit Florence, Italy"
+                    city="Visit Aswan, Egypt"
                   />
                   <City
                     image={require("../../../../../assets/img/18.png")}
                     text={text2}
-                    city="Visit Accra, Ghana"
+                    city="Visit Elmina, Ghana"
                   />
                 </div>
                 <div className="row guides">

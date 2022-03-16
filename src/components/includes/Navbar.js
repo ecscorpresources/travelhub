@@ -12,7 +12,11 @@ const Navbar = (props) => {
     <>
       <nav className={navColorClasses}>
         <Link className="nav-brand" to="/">
-          <img src={require("../../assets/img/Carlaylogo.png")} alt="" />
+          <img
+            src={require("../../assets/img/Carlay_logo.png")}
+            alt="logo"
+            className="mt-2"
+          />
         </Link>
         <button
           className="navbar-toggler"

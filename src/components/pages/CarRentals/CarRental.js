@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+
 import "./CarRental.css";
 import Pagination from "../../includes/Pagination/Pagination";
 import { Checkbox, CheckboxGroup } from "@chakra-ui/core";

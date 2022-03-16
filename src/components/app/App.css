@@ -1,54 +1,61 @@
 @font-face {
-  font-family: "font1";
-  src: url(../../assets/fonts/segoeuil.ttf) format("opentype");
+  font-family: 'font1';
+  src: url(../../assets/fonts/segoeuil.ttf) format('opentype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "segoebold";
-  src: url(../../assets/fonts/segoe-ui-bold.ttf) format("opentype");
+  font-family: 'segoebold';
+  src: url(../../assets/fonts/segoe-ui-bold.ttf) format('opentype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "universalbold";
-  src: url(../../assets/fonts/UniversalisADFStd-Bold.otf) format("opentype");
+  font-family: 'avertaDemo';
+  src: url('../../assets/fonts/avertaDemo.ttf') format('opentype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "universalregular";
-  src: url(../../assets/fonts/UniversalisADFStd-Regular.otf) format("opentype");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: "codecBold";
-  src: url(../../assets/fonts/Codec-Cold-Bold-trial.ttf) format("opentype");
+  font-family: 'universalbold';
+  src: url(../../assets/fonts/UniversalisADFStd-Bold.otf) format('opentype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "NexaBold";
-  src: url(../../assets/fonts/NexaBold.otf) format("opentype");
+  font-family: 'universalregular';
+  src: url(../../assets/fonts/UniversalisADFStd-Regular.otf) format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'codecBold';
+  src: url(../../assets/fonts/Codec-Cold-Bold-trial.ttf) format('opentype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "NexaLight";
-  src: url(../../assets/fonts/NexaLight.otf) format("opentype");
+  font-family: 'NexaBold';
+  src: url(../../assets/fonts/NexaBold.otf) format('opentype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "captura";
-  src: url(../../assets/fonts/Captura-BlackDemo.otf) format("opentype");
+  font-family: 'NexaLight';
+  src: url(../../assets/fonts/NexaLight.otf) format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'captura';
+  src: url(../../assets/fonts/Captura-BlackDemo.otf) format('opentype');
   font-weight: normal;
   font-style: normal;
 }
@@ -57,7 +64,7 @@
   select {
     -moz-appearance: none !important;
     background: transparent
-      url("data:image/gif;base64,R0lGODlhBgAGAKEDAFVVVX9/f9TU1CgmNyH5BAEKAAMALAAAAAAGAAYAAAIODA4hCDKWxlhNvmCnGwUAOw==")
+      url('data:image/gif;base64,R0lGODlhBgAGAKEDAFVVVX9/f9TU1CgmNyH5BAEKAAMALAAAAAAGAAYAAAIODA4hCDKWxlhNvmCnGwUAOw==')
       right center no-repeat !important;
     background-position: calc(100% - 5px) center !important;
   }
@@ -128,14 +135,15 @@ a.loginsignup {
   border-radius: 4px !important;
   margin-right: 10px !important;
   font-size: 13px !important;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   text-decoration: none !important;
 }
 
 #homeFirstSection {
-  background: url("../../assets/img/1th.png") no-repeat;
+  background: url('../../assets/img/1th.png') no-repeat;
   background-position: center;
   background-size: cover;
+  background-color: lightblue;
   min-height: 856px;
   margin-top: -120px;
   display: flex;
@@ -163,7 +171,7 @@ a.loginsignup {
 
 #homeFirstSection .row.time_share .col-md-3 {
   text-align: center;
-  margin: 0 -50px;
+  margin: 0 -53px;
 }
 
 #homeFirstSection .row.row.time_share .col-md-3 a {
@@ -172,11 +180,12 @@ a.loginsignup {
   display: inline-block;
   background: #fff;
   padding: 8px 35px;
+  border: 1px solid #275273;
 }
 
 /* palm section */
 #homepalmSection {
-  background: url("../../assets/img/7.png") no-repeat;
+  background: url('../../assets/img/7.png') no-repeat;
   background-position: center;
   background-size: cover;
   display: flex;
@@ -197,8 +206,8 @@ a.loginsignup {
 
 /* resort section */
 #homeresortSection {
-  background-color: #f5f5f5;
-  padding-top: 130px;
+  background-color: #fff;
+  padding-top: 100px;
   padding-bottom: 50px;
 }
 
@@ -290,23 +299,57 @@ a.loginsignup {
   padding-left: 40px;
 }
 #homeresortSection div.row-1 {
-  margin-bottom: 20px;
+  margin-bottom: 6px;
+  /* justify-content: center; */
+  margin-left: 3rem;
+  align-items: center;
+}
+
+#homeresortSection div.row-2 {
+  /* justify-content: center; */
+  margin-left: 3rem;
 }
 
 #homeresortSection div.row-1 select {
   background-color: #275273 !important;
   color: #fff;
+  padding: 1rem;
+  width: 10rem;
+  border: none;
+  appearance: none;
+  background: url('../../assets/img/130.png');
+  background-repeat: no-repeat;
+  border-radius: 4px;
+  background-position: 94% center;
+}
+
+#homeresortSection div.row-2 select:focus {
+  outline: none;
 }
 
 #homeresortSection div.row-2 select {
+  background-color: #fff !important;
   border-radius: 0;
+  padding: 1rem;
+  width: 10rem;
+  /* font-size: 1.2em; */
+  border: none;
+  appearance: none;
+  background: url('../../assets/img/131.png');
+  background-repeat: no-repeat;
+  border-radius: 4px;
+  background-position: 94% center;
+}
+
+#homeresortSection div.row-2 select:focus {
+  outline: none;
 }
 
 .select-div {
   position: relative;
 }
 
-select::after {
+/* select::after {
   position: absolute;
   content: "";
   top: 14px;
@@ -315,14 +358,28 @@ select::after {
   height: 0;
   border: 6px solid transparent;
   border-color: #fff transparent transparent transparent;
-}
+} */
 
 #homeresortSection div.row-2 button {
   background-color: #f58634;
   color: #fff;
+  padding: 1rem;
+  width: 10.5rem;
+  border: none;
+}
+#homeresortSection div.row-2 button:focus {
+  outline: none;
 }
 #homeresortSection input {
   border-radius: 0px !important;
+  padding: 1rem;
+  width: 10rem;
+  /* font-size: 1.2em; */
+  border: none;
+}
+
+#homeresortSection input:focus {
+  outline: none;
 }
 
 /* resort section end */
@@ -340,13 +397,45 @@ select::after {
   width: 100%;
 }
 
-#homeSecondSection .col-lg-3 div {
-  background: #000;
-  color: #fff;
+#homeSecondSection .col-lg-3 .txt {
+  background: #efeff0;
+  color: #000;
   padding: 10px 0px 10px 24px;
   position: relative;
   top: -1px;
   text-align: left;
+}
+
+#homeSecondSection .col-lg-3 .image {
+  position: relative;
+}
+
+#homeSecondSection .col-lg-3 .image:after {
+  content: '\A';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.6);
+  opacity: 1;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+}
+
+#homeSecondSection .col-lg-3 .image:hover:after {
+  opacity: 0;
+}
+
+#homeSecondSection .col-lg-3 .txt h3 {
+  font-weight: lighter;
+}
+
+#homeSecondSection .col-lg-3 .txt h5 {
+  font-size: 1.1em;
 }
 
 #homeSecondSection h1 {
@@ -386,11 +475,11 @@ select::after {
 }
 #homeThirdSection h2 {
   font-family: captura;
-  font-size: 35px;
+  font-size: 25px;
 }
 #homeThirdSection h1 {
-  word-spacing: 20px;
-  font-size: 70px;
+  word-spacing: 0 !important;
+  font-size: 50px;
   font-family: font1;
 }
 
@@ -408,9 +497,9 @@ select::after {
   padding-top: 110px;
 }
 
-#homeThirdSection .row.parent .col-md-4:nth-child(2) {
-  padding-top: 99px;
-}
+/* #homeThirdSection .row.parent .col-md-4:nth-child(2) {
+  padding-top: 0px;
+} */
 
 #homeFooterSection {
   background-color: #d8d5a0;
@@ -504,7 +593,7 @@ select::after {
 #homeresortSection .row.destinations .col-md-5 p {
   text-align: justify;
   padding-top: 15px;
-  font-family: NexaLight;
+  font-family: 'Open Sans', sans-serif;
 }
 
 #homeresortSection .row.guides .col-md-3 img {
@@ -539,15 +628,16 @@ select::after {
 }
 
 #homeresortSection .row.guides .col-md-3 div:nth-child(3) p {
-  font-size: 0.8rem;
-  font-family: NexaLight;
+  font-size: 0.7rem;
+  /* font-family: NexaLight; */
 }
 
 #homeresortSection .row.guides .col-md-3 div:nth-child(3) {
   position: relative;
   top: -102px;
-  background-color: rgba(255, 255, 255, 0.5);
-  padding: 7px;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 15px 12px;
+  text-align: center;
 }
 
 #hotelsFirstSection input.destination {
@@ -681,38 +771,45 @@ select::after {
 
 #rentalsFirstSection > .row {
   justify-content: center;
+  margin-bottom: 5rem;
 }
 
-#rentalsFirstSection > .row .col-md-4 {
+#rentalsFirstSection > .row .col-md-3 {
   display: flex;
   flex-direction: column;
   justify-content: center;
   margin-left: 70px;
 }
 
-#rentalsFirstSection > .row .col-md-4:first-child img {
+#rentalsFirstSection > .row .col-md-3:first-child img {
   width: 100%;
 }
 
 #rentalsFirstSection > .row .col-md-4 h1 {
-  font-size: 80px;
+  font-size: 50px;
+  margin-top: 1rem;
+  margin-bottom: 0 !important;
 }
 
 #rentalsFirstSection > .row .col-md-4 p {
-  font-size: 30px;
+  font-size: 23px;
 }
 
 #rentalSecondSection > .row {
-  justify-content: space-evenly;
+  justify-content: center;
+  padding: 0 3rem;
 }
 
-#rentalSecondSection .col-md-3 img {
+#rentalSecondSection .col-md-2 img {
   width: 100%;
+}
+#rentalSecondSection .col-md-2:not(:first-child) {
+  margin-left: 4rem;
 }
 
 #rentalThirdSection > .row {
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 #rentalThirdSection > .row .col-md-12 {
@@ -733,21 +830,27 @@ select::after {
 }
 
 #rentalThirdSection form div:first-child input,
-#rentalThirdSection form button {
+#rentalThirdSection form button[type='submit'] {
   padding: 10px 90px 10px 8px;
   margin-bottom: 10px;
   border: 1px solid #ddd;
   color: grey;
+  width: 100%;
 }
 
 #rentalThirdSection form div:first-child input {
-  background: url("../../assets/img/calendar.png");
+  background: url('../../assets/img/calendar.png');
   background-repeat: no-repeat;
   background-position-x: 95%;
   background-position-y: 50%;
 }
 
-#rentalThirdSection form button {
+.react-datepicker__tab-loop {
+  position: absolute;
+  left: 0;
+}
+
+#rentalThirdSection form button[type='submit'] {
   padding: 10px 66px 10px 67px;
   border: 1px solid #ddd;
   color: #fff;
@@ -767,7 +870,7 @@ select::after {
 }
 
 #cruiseFirstSection {
-  background: url("../../assets/img/35.png") no-repeat;
+  background: url('../../assets/img/35.png') no-repeat;
   /* background-size: cover; */
   background-position: center;
   height: 772px;
